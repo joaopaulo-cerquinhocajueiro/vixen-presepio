@@ -1,3 +1,5 @@
+#include <Servo.h>
+
 // disparador de cenas comandadas pelo Vixen
 // Sketch para arduino
 // desenvolvido para maior glória de Jesus, José e Maria
@@ -8,6 +10,11 @@
 int cenas[N_CENAS];
 long int tempoCenas[N_CENAS];
 long int tempoInicioCenas[N_CENAS];
+
+// Variáveis de exemplo
+Servo servo1;
+const int pinoLuz = 10;
+const int pinoServo1 = 9;
 
 // Algumas variaveis para recebimento dos dados
 // pacote da forma:
@@ -28,6 +35,8 @@ void setup() {
   pinMode(53,OUTPUT);
   Serial.begin(115200);
   commTimer = millis();
+  servo1.attach(pinoServo1);
+  
 }
 
 void comunica(){
@@ -42,14 +51,14 @@ void comunica(){
         proximoEstado = INICIO;
       }
       break;
-    case CENA: switch(senas[cnt]){
-        case 0:senas[cnt] = data==0?0:1;
+    case CENA: switch(cenas[cnt]){
+        case 0:cenas[cnt] = data==0?0:1;
         break;
-        case 1:senas[cnt] = data==0?-1:2;
+        case 1:cenas[cnt] = data==0?-1:2;
         break;
-        case 2:senas[cnt] = data==0?-1:2;
+        case 2:cenas[cnt] = data==0?-1:2;
         break;
-        case -1:senas[cnt] = data==0?0:1;
+        case -1:cenas[cnt] = data==0?0:1;
         break;
       }
       cnt++;
@@ -57,7 +66,6 @@ void comunica(){
         proximoEstado = INICIO;
         commTimer = millis();
         digitalWrite(53,LOW); // desliga o led indicador
-        atualizaMotores();
       } else { // se ainda não recebeu todos valores
         proximoEstado = CENA;
       }
@@ -66,7 +74,7 @@ void comunica(){
     estado = proximoEstado;
   }
   // Timeout check
-  if (millis-commTimer>commTimeOut){ //communication lost
+  if (millis()-commTimer>commTimeOut){ //communication lost
     estado = INICIO;
     digitalWrite(53,LOW); // desliga o led indicador
     while(Serial.available() > 0) { // flush the incoming serial buffer
@@ -107,9 +115,9 @@ void loop() {
     }
   }
   // Na cena 1, acende-se uma luz enquanto ela estiver ativa
-  if(cenas[0]==1){ // 1 marca o início da cena
+  if(cenas[1]==1){ // 1 marca o início da cena
     digitalWrite(pinoLuz,HIGH);
-  } else if(cenas[0]==-1){ // -1 marca o final da cena
+  } else if(cenas[1]==-1){ // -1 marca o final da cena
     digitalWrite(pinoLuz,LOW);
   }
 }
