@@ -12,9 +12,12 @@ long int tempoCenas[N_CENAS];
 long int tempoInicioCenas[N_CENAS];
 
 // Variáveis de exemplo
-Servo servo1;
-const int pinoLuz = 10;
-const int pinoServo1 = 9;
+Servo bdDomBosco;
+Servo beDomBosco;
+const int pinoLuz = 46;
+const int pinoDimmer = 7;
+const int pinobdDomBosco = 9;
+const int pinobeDomBosco = 11;
 
 // Algumas variaveis para recebimento dos dados
 // pacote da forma:
@@ -35,8 +38,9 @@ void setup() {
   pinMode(53,OUTPUT);
   Serial.begin(115200);
   commTimer = millis();
-  servo1.attach(pinoServo1);
-  
+  bdDomBosco.attach(pinobdDomBosco);
+  beDomBosco.attach(pinobeDomBosco);
+
 }
 
 void comunica(){
@@ -108,16 +112,44 @@ void loop() {
   /////Exemplos/////
   // Na cena 0, servo1 vai de 0 a 180 em 1s e volta a 0 em 3s.
   if(cenas[0]>0){
+    // configuração do braço direito
     if(tempoCenas[0]<1000){
-      servo1.write(map(tempoCenas[0],0,1000,0,180));
+        bdDomBosco.write(map(tempoCenas[0],0,1000,0,180));
     } else if (tempoCenas[0]<4000){
-      servo1.write(map(tempoCenas[0],1000,4000,180,0));
+      bdDomBosco.write(map(tempoCenas[0],1000,4000,180,0));
+    } else if(tempoCenas[0]<5000){
+      bdDomBosco.write(map(tempoCenas[0],4000,5000,0,90));
+    } else if(tempoCenas[0]<5500){
+    } else if(tempoCenas[0]<6000){
+      bdDomBosco.write(map(tempoCenas[0],5500,6000,90,45));
     }
-  }
+    // configuração do braço esquerdo
+    if(tempoCenas[0]<500){
+      beDomBosco.write(map(tempoCenas[0],0,500,20,40));
+    } else if (tempoCenas[0]<1500){
+      beDomBosco.write(map(tempoCenas[0],500,1500,40,90));
+    } else if(tempoCenas[0]<5000){
+      beDomBosco.write(map(tempoCenas[0],1500,5000,90,30));
+    } else if(tempoCenas[0]<5500){
+    } else if(tempoCenas[0]<6000){
+      beDomBosco.write(map(tempoCenas[0],5500,6000,30,45));
+    }
+   }
   // Na cena 1, acende-se uma luz enquanto ela estiver ativa
   if(cenas[1]==1){ // 1 marca o início da cena
     digitalWrite(pinoLuz,HIGH);
   } else if(cenas[1]==-1){ // -1 marca o final da cena
     digitalWrite(pinoLuz,LOW);
   }
+  // Ainda cena 1, variando a intensidade de uma luz 
+  if(cenas[1]>0){ // 1 marca o início da cena
+    if(tempoCenas[1]<2000){
+      analogWrite(pinoDimmer,map(tempoCenas[1],000,2000,0,255));
+    } else if(tempoCenas[1]<6000){
+      analogWrite(pinoDimmer,255);
+    }else if(tempoCenas[1]<8000){
+      analogWrite(pinoDimmer,map(tempoCenas[1],6000,8000,255,0));
+    }
+  }
+
 }

@@ -23,7 +23,7 @@ Version   1.4
 #include <FastLED.h>
 
 // Sets the maximum number of LEDs that this code will handle to avoid running out of memory
-#define NUM_LEDS 64
+#define NUM_LEDS 50
 
 // Sets the pin which is used to connect to the LED pixel strip
 #define DATA_PIN 3
@@ -62,10 +62,10 @@ void loop() {
         newState = 0;
       }
       break;
-    case 1: leds[cnt].r = data;
+    case 1: leds[cnt].g = data;
       newState = 2;
       break;
-    case 2: leds[cnt].g = data;
+    case 2: leds[cnt].r = data;
       newState = 3;
       break;
     case 3: leds[cnt].b = data;
