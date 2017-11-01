@@ -3,7 +3,7 @@
 // Desenvolvido para maior glória de Jesus, José e Maria
 // Sketch para arduino MEGA
 
-#include "VC.h"
+#include "VA.h"
 
 // Definição dos pinos
 // - Para acionamento dos relês
@@ -41,27 +41,15 @@
 #define SalaDomBosco	45
 #define PortaisBelem	46
 
-#define n_pinos 28
+#define n_reles 13
+#define n_leds  12
+#define n_dimmers 3
+#define n_pinos 28  // n_reles + n_leds + n_dimmers
 const int pinos[] = {Cortina1, Cortina2, CeuEstrelas1, CeuEstrelas2, SalaDomBosco, FocoBelem, BelemFimDeCurso, MotorCachoeira, FocoAnjos, FogueiraPastores, FocoRessurreicao, FumacaRessurreicao, FocoGruta, RomanosCesar, RomanosTrompetes, RomanosArauto, CasaBelem1, CasaBelem2, CasaBelem3, CasaBelemAlto4, CasaBelemAlto5, CaminhoBelem, GrutaNSra, GrutaSaoJose, LuzCachoeira, LuzSalao, SalaDomBosco, PortaisBelem
 };
 
-// cada canal definido no vixen dispara uma cena
-// um temporizador sincroniza os movimentos/luzes a partir do momento que o canal aciona
-#define CenaAbertura 0
-#define CenaDomBosco1 1
-#define CenaBelem 2
-#define CenaPastores 3
-#define CenaRessureicao 4
-#define CenaRomanos 5
-#define CenaBelem 6
-#define CenaGruta 7
-#define CenaFechamento 8
-#define N_CENAS 8
-int n_cenas = N_CENAS;
-// Arrays das cenas, para não complicar muito
-int cenas[N_CENAS];
-long int tempoCenas[N_CENAS];
-long int tempoInicioCenas[N_CENAS];
+const int n_vars = n_pinos;
+int vars[n_vars];
 int cnt; // contador
 int estado;
 int proximoEstado;
@@ -72,18 +60,17 @@ void setup() {
   for(int i=0; i<n_pinos; i++){
     pinMode(pinos[i],OUTPUT);
   }
-  vc_init();
+  va_init();
 }
 
 void loop(){
-  vc_atualiza();
-  if(cenas[CenaAbertura]>0){ // enquanto a cena estiver ativa
-
+  va_comunica();
+  if(estado = FIM){
+    for(int i = 0; i<n_reles; i++){
+      digitalWrite(pinos[i],vars[i]);
+    }
+    for(int i = n_reles; i < (n_reles + n_leds + n_dimmers); i++){
+      analogWrite(pinos[i], vars[i]);
+    }
   }
-  if(cenas[CenaAbertura]==1){ // 1 marca o início da cena
-    digitalWrite(Cortina1,HIGH);
-  } else if(cenas[CenaAbertura]==-1){ // -1 marca o final da cena
-    digitalWrite(LuzSalao,LOW);
-  }
-
 }

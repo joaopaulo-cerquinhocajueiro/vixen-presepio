@@ -7,7 +7,7 @@
 
 // Biblioteca necessária para PWM em outros pinos
 #include <SoftPWM.h>
-#include "VC.h"
+#include "VA.h"
 
 // Definição dos pinos
 // - Para motores CC
@@ -35,37 +35,20 @@ SOFTPWM_DEFINE_CHANNEL(4, DDRL, PORTL, PORTL3);  //pin 46 - SantaCeiap
 SOFTPWM_DEFINE_CHANNEL(5, DDRL, PORTL, PORTL1);  //pin 48 - SantaCeian
 SOFTPWM_DEFINE_CHANNEL(6, DDRB, PORTB, PORTB3);  //pin 50 - RessurreicaoPedrap
 SOFTPWM_DEFINE_CHANNEL(7, DDRB, PORTB, PORTB1);  //pin 52 - RessurreicaoPedran
-#define PWMBelemMoinhop 0
-#define PWMBelemMoinhon 1
-#define PWMCruzp 2
-#define PWMCruzn 3
-#define PWMSantaCeiap 4
-#define PWMSantaCeian 5
-#define PWMRessurreicaoPedrap 6
-#define PWMRessurreicaoPedran 7
+
+SOFTPWM_DEFINE_OBJECT(8);
+
 // - para dimmer (PWM)
 // #define Livre	45
 
 #define n_pinos 16
 const int pinos[] = {BelemCasa1p, BelemCasa1n, BelemCasa2p, BelemCasa2n, BelemCasa3p, BelemCasa3n, BelemTrilhop, BelemTrilhon, BelemMoinhop , BelemMoinhon , Cruzp , Cruzn , SantaCeiap , SantaCeian , RessurreicaoPedrap , RessurreicaoPedran };
 
-// cada canal definido no vixen dispara uma cena
-// um temporizador sincroniza os movimentos/luzes a partir do momento que o canal aciona
-#define CenaAbertura 0
-#define CenaDomBosco1 1
-#define CenaBelem 2
-#define CenaPastores 3
-#define CenaRessureicao 4
-#define CenaRomanos 5
-#define CenaBelem 6
-#define CenaGruta 7
-#define CenaFechamento 8
-#define N_CENAS 8
-int n_cenas = N_CENAS;
-// Arrays das cenas, para não complicar muito
-int cenas[N_CENAS];
-long int tempoCenas[N_CENAS];
-long int tempoInicioCenas[N_CENAS];
+#define n_motores 8
+int potencias[n_motores];
+
+const int n_vars = n_pinos;
+int vars[n_vars];
 int cnt; // contador
 int estado;
 int proximoEstado;
@@ -76,19 +59,43 @@ void setup() {
   for(int i=0; i<n_pinos; i++){
     pinMode(pinos[i],OUTPUT);
   }
+  Palatis::SoftPWM.begin(255);
+  va_init();
+}
 
-  vc_init();
+void atualizaMotores(){
+  // If potencia is positive, actuate the motor via positive pin,
+  // if negative, via negative pin.
+
+  // The first 4 motors use analogWrite
+  for(int i=0; i<4; i++){
+    if(potencias[i]>=0){
+      analogWrite(pinos[2*i+1],0);
+      analogWrite(pinos[2*i],potencias[i]);
+    } else {
+      analogWrite(pinos[2*i],0);
+      analogWrite(pinos[2*i+1],-potencias[i]);
+    }
+  }
+  // The last 4 motors use SoftPWM
+  for(int i=0; i<4; i++){
+    if(potencias[i]>=0){
+      Palatis::SoftPWM.set(2*i+1,0);
+      Palatis::SoftPWM.set(2*i,potencias[i]);
+    } else {
+      Palatis::SoftPWM.set(2*i,0);
+      Palatis::SoftPWM.set(2*i+1,-potencias[i]);
+    }
+  }
 }
 
 void loop(){
-  vc_atualiza();
-  if(cenas[CenaAbertura]>0){ // enquanto a cena estiver ativa
-
-  }
-  if(cenas[CenaAbertura]==1){ // 1 marca o início da cena
-    digitalWrite(Padaria,HIGH);
-  } else if(cenas[CenaAbertura]==-1){ // -1 marca o final da cena
-    digitalWrite(Padaria,LOW);
+  va_comunica();
+  if(estado = FIM){
+    for(int i = 0; i<n_motores; i++){
+      potencias[i] = vars[2*i]-vars[2*i+1];
+    }
+    atualizaMotores();
   }
 
 }
