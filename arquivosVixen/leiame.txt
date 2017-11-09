@@ -1,0 +1,2 @@
+O arquivo presepio.tim deve ser colocado na pasta "Documentos\Vixen 3\Sequence"
+O arquivo "SystemConfig.xml" deve ser colocado na pasta "Documentos\Vixen 3\SystemData"
