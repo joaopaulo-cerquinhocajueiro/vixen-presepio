@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemConfig version="16">
+  <Identity>17d8d79a-bd79-49d9-97ca-ebf97ba55235</Identity>
+  <AllowFilterEvaluation>true</AllowFilterEvaluation>
+  <DefaultUpdateInterval>50</DefaultUpdateInterval>
+  <Channels>
+    <Channel id="05a863a2-f5ab-4029-808b-006f7219808d" name="MotorCachoeira" />
+    <Channel id="3c21ca77-728e-49c8-b432-315ab2bf0295" name="BelemFimDeCurso" />
+    <Channel id="b70d0c38-a717-4c03-a418-9f0807a5e97c" name="SalaDomBosco" />
+    <Channel id="80753366-75ee-462e-a590-2325b7dd0c60" name="FogueiraPastores" />
+    <Channel id="517f3d8c-88e9-4f51-b133-1b91ff350d03" name="FocoRessurreicao" />
+    <Channel id="e78d685b-8d55-413a-9d39-1379df9f35d7" name="FumacaRessurreicao" />
+    <Channel id="15049f97-30a3-4350-bee0-1fe210b3f9c1" name="Caravana" />
+    <Channel id="6406754e-c719-4ce4-89f8-067be8bd00ac" name="RomanosCesar" />
+    <Channel id="d6f1afab-0613-4514-9b67-26e6e8bd5573" name="RomanosTrompetes" />
+    <Channel id="0f6d7d6e-08a8-4f95-a4f4-a6df29d14b80" name="CasaBelem1" />
+    <Channel id="01d3d0ea-1589-4fae-8cf8-dd4df0d82994" name="CasaBelem2" />
+    <Channel id="71264cb0-66b7-4719-a69a-f4e557a5d79c" name="RomanosArauto" />
+    <Channel id="6dd5f6c4-ff61-43b2-a165-7eeeff8cc399" name="CasaBelem3" />
+    <Channel id="0fb0515c-cd4d-4627-aba4-8b48ce4049a5" name="CasaBelemAlto4" />
+    <Channel id="bead7cd9-f08b-428b-b6f3-090ccc0fd53e" name="CasaBelemAlto5" />
+    <Channel id="e7114e47-0f83-4210-ae20-414733161fa7" name="vitraisSantaCeia" />
+    <Channel id="32a255d2-ff29-44f3-8546-2b77ecbf5bf2" name="portaisBelem" />
+    <Channel id="92166684-53e5-443e-a7c6-f54505c424b9" name="Estrelas1" />
+    <Channel id="ec89a297-dc2c-4062-8a07-d55530dc7b74" name="Estrelas2" />
+    <Channel id="11a04155-2a75-4a1d-ac60-0eee9b46561a" name="Desativado" />
+    <Channel id="1640deb3-64bd-4141-90d0-448bcd209568" name="FocoBelem" />
+    <Channel id="0bd44e5e-7787-4747-805f-dcae394f04d3" name="CaminhoBelem" />
+    <Channel id="c0a18804-65a6-4613-bf5d-62ec5426a8ac" name="GrutaNSra" />
+    <Channel id="0dba7fee-bf8f-4d6f-bbba-53cb47481546" name="GrutaSJose" />
+    <Channel id="cee4319b-8621-4a01-a9b7-1a6aa56de98d" name="LuzCachoeira" />
+    <Channel id="81013364-8136-4b6f-9a22-cb2454300e39" name="LuzSalao" />
+    <Channel id="1006b87f-b85f-4537-bc93-4e476aecde7c" name="dimSalaDomBosco" />
+    <Channel id="4ba28d8e-4016-4b44-b739-b7b2c458dd6e" name="PortaisBelem" />
+    <Channel id="ca8fd7c1-ffe9-42ab-abdb-ef0b2d7917a7" name="DomBoscobd" />
+    <Channel id="fd4db9d8-b319-48d5-ac2c-97bd6b3933f9" name="DomBoscobe" />
+    <Channel id="be7b3187-b82a-4385-bc0a-7ce434044a37" name="DomBoscoCabeca" />
+    <Channel id="9fddfe51-b906-4c3e-8161-2ce196e67647" name="DomBoscoCorpo" />
+    <Channel id="a3e6c3d1-e1fd-433a-882e-a7732756f993" name="Menino1Gira" />
+    <Channel id="428e1b73-0ceb-4d59-9339-4f4de1e3a59a" name="Menino2Gira" />
+    <Channel id="c8bba33a-d551-4548-9ccd-3f84c25a006e" name="Menino1Pula" />
+    <Channel id="9575e5dd-79f2-4ec5-9898-fa6a404647fa" name="Desativado - 2" />
+    <Channel id="f36ee6a2-75ad-4e42-bb13-5328b3a037c1" name="Desativado - 3" />
+    <Channel id="184ce6bc-62dd-4469-b67b-418ecbf0fa5c" name="Menino3Gira" />
+    <Channel id="3cade8b8-30ba-49a0-8366-c1583fb68905" name="Menino4Gira" />
+    <Channel id="873a745b-5a49-42df-af5e-49cd51f2e417" name="CabecaNSCruz" />
+    <Channel id="ea92ee44-f48d-46fb-afe2-0a188e59adae" name="RomaTrombeta1" />
+    <Channel id="613473be-33ee-479b-a6f5-4b9c1d563681" name="RomaTrombeta2" />
+    <Channel id="a2ed049c-b551-499c-9813-0711a47647f9" name="RomaTrombeta3" />
+    <Channel id="7984ea81-3c6f-436e-ba0b-45808f213f9b" name="RomaTrombeta4" />
+    <Channel id="0ed389e0-b8ac-4b06-a9cb-b1845350e91b" name="RomaTrombeta5" />
+    <Channel id="19f5e9e2-a340-4fc5-8191-6932f6cb8507" name="Romatrombeta6" />
+    <Channel id="e8555d94-2d05-411e-853e-94aa2d28d130" name="RomaArauto" />
+    <Channel id="d29090e3-8ab9-4c63-bd4d-8a85b7ec9391" name="Carpintaria1" />
+    <Channel id="6c9e3a6e-c347-477f-9748-f3a8560f93e3" name="Carpintaria2" />
+    <Channel id="ebfc1c81-9f00-43e2-8992-dbbeb5610bad" name="Padaria1" />
+    <Channel id="94c8279d-78c3-4e3a-86fc-82e9529519e8" name="Padaria2" />
+    <Channel id="751fd4c2-511a-4612-bc57-bfc7e0b30889" name="AnjoPastores" />
+    <Channel id="af64eacf-60f5-4f7b-932c-77ff90e31939" name="Eucaristia" />
+    <Channel id="00f24fdd-b48a-41a1-a7c7-39ddb2624bcd" name="ReiMago2" />
+    <Channel id="007f1fa9-e299-4c71-b779-94c04c109bd6" name="ReiMago3" />
+    <Channel id="f7ba4c74-636e-4821-aaad-d3a730009bcb" name="cruzSobe" />
+    <Channel id="d168852f-130d-49f4-8bd3-72a885ac54b1" name="pedraFecha" />
+    <Channel id="ef6361a1-244b-4c62-9608-9b19385af8b6" name="pedraAbre" />
+    <Channel id="80be7c93-b063-4ac4-a04c-eae19148d79a" name="Cruznx" />
+    <Channel id="818bf466-34f2-4441-b27a-1b3d99addbe9" name="Cruzpx" />
+    <Channel id="49e02bf0-b636-4cf7-8c61-122bb13a9546" name="trilhoN" />
+    <Channel id="214b8d5a-a729-4556-8603-8bea2354eea9" name="trilhoP" />
+    <Channel id="70edd894-f250-4e5c-8e8f-0e9c861123be" name="BelemCasa1p" />
+    <Channel id="3e026da8-a141-4759-8132-783517e11408" name="BelemCasa1n" />
+    <Channel id="7a6c1c84-9bf4-4fdc-bcba-2c85af2a1876" name="BelemCasa2n" />
+    <Channel id="d119daa6-6ae3-44c8-b9ce-62ca8b47fe1a" name="BelemCasa2p" />
+    <Channel id="cc4f9e79-93c7-4ef7-9ae2-04e1e2ab7dd8" name="casa3P" />
+    <Channel id="d7bf1106-8427-4333-9b38-0723b92856d7" name="casa3n" />
+    <Channel id="5cb6dfee-4529-4d84-9140-e4c2d16d7227" name="moinhoN" />
+    <Channel id="55c2f4b8-f545-4abc-b4ba-3ac727abeb04" name="moinhoP" />
+    <Channel id="f81b143a-92e4-4593-8874-be74be631911" name="LuzFinal1" />
+    <Channel id="5a47e6ea-11f4-4143-8610-72be4a14ac26" name="EstrelaDEBelem" />
+    <Channel id="f4d1ee60-fce2-4816-9883-1153c6843a7c" name="RaioCalvario" />
+    <Channel id="593bd867-8376-4f57-b8f1-929615fecfa4" name="Calvario" />
+    <Channel id="736fff3e-ce49-4d85-bc9e-128b5f48c7ea" name="Padaria" />
+    <Channel id="b9ada746-d387-48d8-be75-dfe1a3b568ef" name="Carpintaria" />
+    <Channel id="9dcf126a-38f5-4e97-992a-4a9f2abaeac0" name="SantaCeia2" />
+    <Channel id="7dd85735-583e-4ea6-aeb5-b957c08f47a2" name="SantaCeia1" />
+    <Channel id="6c6e1c8c-19b0-47db-9cb6-944c4db5adf9" name="FocoCalvario" />
+    <Channel id="cd55f4e0-c400-43f2-92f1-83007feaa0da" name="CaminhoCaravana" />
+    <Channel id="3fc62ce1-5fc1-40bf-b244-053569e39a0e" name="LuzAnjoPastores" />
+    <Channel id="e3740dfe-810d-40a9-bcb3-0dda9e29e505" name="PastoresNaFogueira" />
+    <Channel id="6ec13721-a5de-404e-b212-e7acd41f4f25" name="VitraisGruta" />
+    <Channel id="1c9c92b6-ef14-4398-990e-c0ae79ee6008" name="PastoresNaGruta" />
+    <Channel id="60b37155-c5ba-4f92-a16f-4dd08f627f3b" name="ReisNaGruta" />
+    <Channel id="0c354662-a1c8-4225-b670-32933da98707" name="cruzDesce" />
+    <Channel id="d5b31aeb-173d-45df-9303-856dee789687" name="RessurreicaoNSJCn" />
+    <Channel id="8ac4075c-7224-42b9-92b9-4d089e2da33f" name="RessurreicaoNSJCp" />
+    <Channel id="2cab234f-2ec3-4130-ab04-0b1135694697" name="CaravanaN" />
+    <Channel id="5b83d902-55a4-4153-982a-1134f05d2a5d" name="CaravanaP" />
+    <Channel id="c938d833-3130-4fb6-a705-ef6a1bc877e4" name="Grutap" />
+    <Channel id="343d55d8-9a7c-443b-82fe-1258aee25d14" name="Grutan" />
+    <Channel id="709d0cd8-2e16-4a65-bf17-f6c84cb7004c" name="Anjosp" />
+    <Channel id="4c707431-894e-44c7-bc9e-03d2dcfe4e44" name="Anjosn" />
+    <Channel id="56516bdc-5ac3-4d70-bccc-050c4aa3da5d" name="NsaSra" />
+    <Channel id="04262030-1236-4bb1-8c70-144395aa65fd" name="torreCristal" />
+    <Channel id="b4622190-e54f-4d4e-9ddb-6d0e1daf9272" name="ceia" />
+    <Channel id="3963af04-d224-48d4-b703-dc9c311831b5" name="camelo" />
+    <Channel id="a86fc23d-3abc-4945-b074-9cae37a0c237" name="reis" />
+    <Channel id="a2f398d3-0959-49fb-8076-c127a4993751" name="Nazaré" />
+    <Channel id="86c86502-9a94-48d8-a416-2ab61d26e33c" name="SaoJose" />
+    <Channel id="110fecaa-4f45-4d4a-afd5-3e1d2bb201be" name="gruta" />
+    <Channel id="342bb6a8-c319-4256-87d1-9f1c51b8745e" name="pastores" />
+    <Channel id="804b5892-3904-480f-82a5-4020f44f7ee6" name="lago" />
+    <Channel id="e67fe9c0-4213-43db-aff7-0131d48beb58" name="romanos" />
+    <Channel id="da81c41c-125d-4856-a07f-d3aae175fddb" name="cachoeira" />
+    <Channel id="163723c6-3a0c-4486-880d-94540c1ec762" name="Cesar" />
+    <Channel id="5c0b1be9-432c-42bc-ab22-f3a45347f77a" name="anjo" />
+    <Channel id="ee38f348-8f42-41f9-9d6e-74a426bcf428" name="SãoGabriel" />
+    <Channel id="5bc8bf85-1bd0-4641-a064-39465f116434" name="FocoMeninoJesus" />
+    <Channel id="e08946e5-a9fd-44e9-89d5-4fb372029681" name="FocoGruta" />
+  </Channels>
+  <Nodes>
+    <Node name="reles1" id="b8d943ec-59e2-4717-9244-bd6dd4769f05">
+      <Node name="vitraisSantaCeia" id="f588c850-f824-494c-93dc-6895eb59b81a" channelId="e7114e47-0f83-4210-ae20-414733161fa7">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0e46c448-bee7-4f0b-a030-635936609073" />
+        </Properties>
+      </Node>
+      <Node name="portaisBelem" id="7befdd5c-9a62-411b-b0a5-594843b60401" channelId="32a255d2-ff29-44f3-8546-2b77ecbf5bf2">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="1886a242-b20d-42a5-9d9e-faea31b5fb8a" />
+        </Properties>
+      </Node>
+      <Node name="Estrelas1" id="acff900b-513a-4a74-8184-972daa76ca0e" channelId="92166684-53e5-443e-a7c6-f54505c424b9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="9d32b630-421d-4814-ab01-fbfcef1ab29c" />
+        </Properties>
+      </Node>
+      <Node name="Estrelas2" id="3a040eb4-b21f-40b3-b1fa-83b41fdc0b19" channelId="ec89a297-dc2c-4062-8a07-d55530dc7b74">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="cf9b64d7-eb41-4f5f-9b7f-17ffc946d8f7" />
+        </Properties>
+      </Node>
+      <Node name="Desativado" id="e92e721d-9444-4ff4-9c90-0969cce17467" channelId="11a04155-2a75-4a1d-ac60-0eee9b46561a">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="14736bd9-d2a8-4d4c-a14c-daea7e2852da" />
+        </Properties>
+      </Node>
+      <Node name="FocoBelem" id="85a1dce0-5827-41df-84b6-f03347f33055" channelId="1640deb3-64bd-4141-90d0-448bcd209568">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="6f5cd7f8-e62c-4422-aecd-5f636dd5d936" />
+        </Properties>
+      </Node>
+      <Node name="BelemFimDeCurso" id="36a5dce4-86f8-4518-a7cc-e11f4f714c5c" channelId="3c21ca77-728e-49c8-b432-315ab2bf0295">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="eccaf12a-92e3-425a-af31-a07c0fceb8e7" />
+        </Properties>
+      </Node>
+      <Node name="MotorCachoeira" id="9abd7d22-4818-414d-afa5-fe9fecd50514" channelId="05a863a2-f5ab-4029-808b-006f7219808d">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="74a990df-f667-439e-adc6-c417eb02ad48" />
+        </Properties>
+      </Node>
+      <Node name="SalaDomBosco" id="0f751b17-c09b-434b-b7ad-820738badee7" channelId="b70d0c38-a717-4c03-a418-9f0807a5e97c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c6e43778-abe0-47cf-907d-b835d7d8a486" />
+        </Properties>
+      </Node>
+      <Node name="FogueiraPastores" id="b5fead5b-3c93-44c0-9c10-32995cd1fa89" channelId="80753366-75ee-462e-a590-2325b7dd0c60">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="d5b673b4-5dc7-420b-bb38-186ecb40affa" />
+        </Properties>
+      </Node>
+      <Node name="FocoRessurreicao" id="a320cebc-536c-4b71-8861-d4b0883f68d2" channelId="517f3d8c-88e9-4f51-b133-1b91ff350d03">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="181a75e3-0db9-4845-a78c-c0a4b39ad61d" />
+        </Properties>
+      </Node>
+      <Node name="FumacaRessurreicao" id="bace61a5-8ba8-425f-9791-277a8c63b1ee" channelId="e78d685b-8d55-413a-9d39-1379df9f35d7">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ec8d2aac-af03-4d5f-826c-5e39ad482fb0" />
+        </Properties>
+      </Node>
+      <Node name="Caravana" id="df8b64d0-1125-4c4d-84d1-c1dad17ed89d" channelId="15049f97-30a3-4350-bee0-1fe210b3f9c1">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="34da4b42-6d62-4afc-ad52-d38a49fc82e6" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="leds1" id="e3b1b7e5-7cd0-42f8-8e79-6ccfa5bfd405">
+      <Node name="RomanosCesar" id="5e2e4c34-157d-4546-bcfc-e7708c53e5c1" channelId="6406754e-c719-4ce4-89f8-067be8bd00ac">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="bf337ffe-4be2-438e-8232-433b3f2fbcd0" />
+        </Properties>
+      </Node>
+      <Node name="RomanosTrompetes" id="18682a6c-cda6-43cc-b295-9ddec55bfdb6" channelId="d6f1afab-0613-4514-9b67-26e6e8bd5573">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="420a6721-9812-4666-83d4-4d58ead1d274" />
+        </Properties>
+      </Node>
+      <Node name="RomanosArauto" id="27fd04b9-ec17-4326-89d2-85c3d1133636" channelId="71264cb0-66b7-4719-a69a-f4e557a5d79c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="f5e6380a-416c-421b-b376-2e9b63b69865" />
+        </Properties>
+      </Node>
+      <Node name="CasaBelem1" id="093c7567-1691-4d20-b72f-d8b1b96ec2f1" channelId="0f6d7d6e-08a8-4f95-a4f4-a6df29d14b80">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="95257b60-58d8-4176-bcc0-f2106541301e" />
+        </Properties>
+      </Node>
+      <Node name="CasaBelem2" id="e2f92d40-6ca6-449d-854a-fb2f5d118266" channelId="01d3d0ea-1589-4fae-8cf8-dd4df0d82994">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="e3068f86-1657-4aa5-a920-49c6dc722d43" />
+        </Properties>
+      </Node>
+      <Node name="CasaBelem3" id="6d1abd9f-efec-4cc8-8182-9cb624392536" channelId="6dd5f6c4-ff61-43b2-a165-7eeeff8cc399">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="5a70895e-fce0-48c0-a665-5f3fe384d9dd" />
+        </Properties>
+      </Node>
+      <Node name="CasaBelemAlto4" id="682b0099-b96e-4fc3-8ee2-e9aa0c7434e8" channelId="0fb0515c-cd4d-4627-aba4-8b48ce4049a5">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c7413d5f-0f62-47f1-ba31-4b9e2b82e486" />
+        </Properties>
+      </Node>
+      <Node name="CasaBelemAlto5" id="5c867c64-fe30-46cf-b411-acbe1d999749" channelId="bead7cd9-f08b-428b-b6f3-090ccc0fd53e">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="9c6d0943-a4b7-43c1-913e-4d3ddab03a0e" />
+        </Properties>
+      </Node>
+      <Node name="CaminhoBelem" id="97f3f3e1-6d62-4ae4-8cb4-b118842e6b7d" channelId="0bd44e5e-7787-4747-805f-dcae394f04d3">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ef011d5f-1903-49bc-96d5-450e76c09a30" />
+        </Properties>
+      </Node>
+      <Node name="GrutaNSra" id="82c221c4-7f65-4de3-a001-fbd19f513709" channelId="c0a18804-65a6-4613-bf5d-62ec5426a8ac">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="bc984352-9f04-4e52-abff-89d7220bc34b" />
+        </Properties>
+      </Node>
+      <Node name="GrutaSJose" id="595f5b8f-cdfc-4a26-9eb6-b771ecc65e71" channelId="0dba7fee-bf8f-4d6f-bbba-53cb47481546">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="88e6439c-e5ec-4647-9c40-b7162bfeb354" />
+        </Properties>
+      </Node>
+      <Node name="LuzCachoeira" id="3d10ad4b-8621-4a8e-b79f-bec0eb6b60ec" channelId="cee4319b-8621-4a01-a9b7-1a6aa56de98d">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="4a9a6e10-30fc-4032-8dc3-c40bba781bda" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="servos2" id="96c6ded2-8576-42cc-87b9-07d59603c05c">
+      <Node name="DomBoscobd" id="cd51d124-f85c-46fc-9e00-2cbdb51c45b6" channelId="ca8fd7c1-ffe9-42ab-abdb-ef0b2d7917a7">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="897ac20c-1cd1-443a-a860-e333b116b508" />
+        </Properties>
+      </Node>
+      <Node name="DomBoscobe" id="e0b1b431-fa8c-4404-b293-f75530af8d44" channelId="fd4db9d8-b319-48d5-ac2c-97bd6b3933f9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="3aca19de-9e69-4e75-b2d7-b242557575dd" />
+        </Properties>
+      </Node>
+      <Node name="DomBoscoCabeca" id="6be0c237-a131-433d-96ed-f6393c87cbf2" channelId="be7b3187-b82a-4385-bc0a-7ce434044a37">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="4a173550-8389-4442-beca-55a6db1ed29b" />
+        </Properties>
+      </Node>
+      <Node name="DomBoscoCorpo" id="ec945106-5e28-4d73-8f77-04e05e233467" channelId="9fddfe51-b906-4c3e-8161-2ce196e67647">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="a2beb0a0-7ae6-42bc-b751-a80e895b04fc" />
+        </Properties>
+      </Node>
+      <Node name="Menino1Gira" id="5c2d9cff-4db1-4bac-9ee9-341d74af2534" channelId="a3e6c3d1-e1fd-433a-882e-a7732756f993">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="44cdda6d-e54f-40c8-8032-1a866c753eaf" />
+        </Properties>
+      </Node>
+      <Node name="Menino2Gira" id="553907e2-34f0-482e-a6fc-09bb97fb4b24" channelId="428e1b73-0ceb-4d59-9339-4f4de1e3a59a">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="43303f5f-1bf7-4986-bcb5-0ca3f1586351" />
+        </Properties>
+      </Node>
+      <Node name="Menino1Pula" id="ec68bcbf-a16a-4afa-9ca9-39b423046502" channelId="c8bba33a-d551-4548-9ccd-3f84c25a006e">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="7d5a17b8-3ea0-4738-9a4f-9d775939b821" />
+        </Properties>
+      </Node>
+      <Node name="Desativado - 2" id="d1864a09-3eb5-4d4e-bd09-cad3085a5318" channelId="9575e5dd-79f2-4ec5-9898-fa6a404647fa">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="bb11c686-c3e0-4843-9370-1b3100672a28" />
+        </Properties>
+      </Node>
+      <Node name="Desativado - 3" id="48a2e1fe-c64d-4f4b-8e15-3d3f32c18f84" channelId="f36ee6a2-75ad-4e42-bb13-5328b3a037c1">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="28227029-2360-4c42-8be1-5ff38c8d4de3" />
+        </Properties>
+      </Node>
+      <Node name="Menino3Gira" id="f6c8fda1-58c7-4c2c-a222-d36f9be089d1" channelId="184ce6bc-62dd-4469-b67b-418ecbf0fa5c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="26ffebfa-9959-4bd5-88cd-943cacc492a1" />
+        </Properties>
+      </Node>
+      <Node name="Menino4Gira" id="71f81ad7-87d6-4b48-9e3c-35f41af4ba42" channelId="3cade8b8-30ba-49a0-8366-c1583fb68905">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="71762018-f1aa-4761-bcff-263770f9ad09" />
+        </Properties>
+      </Node>
+      <Node name="CabecaNSCruz" id="c2ef1559-5a5e-4858-aa9c-258709d6702f" channelId="873a745b-5a49-42df-af5e-49cd51f2e417">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0aaeaa27-1dc6-4943-952d-e0d2911fd6dd" />
+        </Properties>
+      </Node>
+      <Node name="RomaTrombeta1" id="df41777e-5448-4414-8e19-f42e77917a7e" channelId="ea92ee44-f48d-46fb-afe2-0a188e59adae">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="f1393170-da47-4266-b685-ff4e55a305f2" />
+        </Properties>
+      </Node>
+      <Node name="RomaTrombeta2" id="89505c1d-049a-4c7d-b240-8e2197b75607" channelId="613473be-33ee-479b-a6f5-4b9c1d563681">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="e002f622-e51d-490f-83d5-78c8ca33b4dd" />
+        </Properties>
+      </Node>
+      <Node name="RomaTrombeta3" id="550c96b0-2865-4e8a-b057-8589d0840d49" channelId="a2ed049c-b551-499c-9813-0711a47647f9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ff2b9bde-668b-4bd1-b614-f79e29d670b8" />
+        </Properties>
+      </Node>
+      <Node name="RomaTrombeta4" id="69522f4c-89b1-4b9c-bc17-acd03a3b0cf3" channelId="7984ea81-3c6f-436e-ba0b-45808f213f9b">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="bfeb475b-a212-43e1-ab71-a4ecf3e31660" />
+        </Properties>
+      </Node>
+      <Node name="RomaTrombeta5" id="62bc6c3e-b924-47bc-b7eb-f30ae5b1dede" channelId="0ed389e0-b8ac-4b06-a9cb-b1845350e91b">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="d2049ae8-e41f-4a61-abbb-5ba67eb68f7f" />
+        </Properties>
+      </Node>
+      <Node name="Romatrombeta6" id="1aeaaf20-d754-419a-bc1f-274f03d22347" channelId="19f5e9e2-a340-4fc5-8191-6932f6cb8507">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="7cc2aa1d-642f-4760-a27c-d6f8bdc42af9" />
+        </Properties>
+      </Node>
+      <Node name="RomaArauto" id="b9799ba4-a9dd-4b61-b71b-133b73f9e12c" channelId="e8555d94-2d05-411e-853e-94aa2d28d130">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="562a8b65-4f00-4b36-82ef-af5e76ddc621" />
+        </Properties>
+      </Node>
+      <Node name="Carpintaria1" id="c37c4f39-ba4d-4b00-abce-e1c92cddaa27" channelId="d29090e3-8ab9-4c63-bd4d-8a85b7ec9391">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ccf4d1d4-0a58-4756-88ab-c2465ad6edc7" />
+        </Properties>
+      </Node>
+      <Node name="Carpintaria2" id="77c807e3-50b9-47cd-aa92-80b2d5fda2dd" channelId="6c9e3a6e-c347-477f-9748-f3a8560f93e3">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="fc22fc17-2653-4bca-90e0-f16289e50807" />
+        </Properties>
+      </Node>
+      <Node name="Padaria1" id="f97d4b6e-951d-4453-b61a-b2381d07c97b" channelId="ebfc1c81-9f00-43e2-8992-dbbeb5610bad">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="a03af379-d83b-41e0-b1d7-d6f06c120309" />
+        </Properties>
+      </Node>
+      <Node name="Padaria2" id="7e5c0022-0afd-4fe0-a396-9cd78d6d372f" channelId="94c8279d-78c3-4e3a-86fc-82e9529519e8">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="de757460-fdf5-40e5-8c82-981acd272933" />
+        </Properties>
+      </Node>
+      <Node name="AnjoPastores" id="86fc0fe6-ea8c-4171-a4f0-16ac4e5c1949" channelId="751fd4c2-511a-4612-bc57-bfc7e0b30889">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="d09b4621-2f83-40cf-802b-dc5fbf178879" />
+        </Properties>
+      </Node>
+      <Node name="Eucaristia" id="74ba6e32-3819-4af7-811a-2924d61360fa" channelId="af64eacf-60f5-4f7b-932c-77ff90e31939">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="402cb304-6528-4a86-9e11-96e0770e89b2" />
+        </Properties>
+      </Node>
+      <Node name="ReiMago2" id="9b2a7e55-f351-4eea-85db-a1a11c89cc3a" channelId="00f24fdd-b48a-41a1-a7c7-39ddb2624bcd">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="9ba8346a-44fe-4630-a91e-4f7cc2f6cef4" />
+        </Properties>
+      </Node>
+      <Node name="ReiMago3" id="4be3afdf-4761-475e-9366-e6051543109e" channelId="007f1fa9-e299-4c71-b779-94c04c109bd6">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0c495f3b-b713-47fc-b1b3-d25457661116" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="dimmers2" id="f52555b9-bbcd-4332-b55f-a876c527066b">
+      <Node name="VitraisGruta" id="df1c5719-b695-47ca-8bb6-7ffb501d91b5" channelId="6ec13721-a5de-404e-b212-e7acd41f4f25">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="2267521a-0bca-4d90-8f30-406f033caf21" />
+        </Properties>
+      </Node>
+      <Node name="PastoresNaGruta" id="7600ad2a-c484-449f-be3f-5c471991d76b" channelId="1c9c92b6-ef14-4398-990e-c0ae79ee6008">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="9527e85f-b109-42e7-8efc-7062e2af6ca8" />
+        </Properties>
+      </Node>
+      <Node name="ReisNaGruta" id="69e9077b-7f26-43ff-bdde-666fd126823b" channelId="60b37155-c5ba-4f92-a16f-4dd08f627f3b">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="8b36f641-f659-4e63-98d9-00c33cdf69fc" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="leds2" id="d3994f1c-8c53-43fc-ab70-9da141fe3ea7">
+      <Node name="PastoresNaFogueira" id="3413eea6-fe88-4c6e-abfe-f95c45328cbc" channelId="e3740dfe-810d-40a9-bcb3-0dda9e29e505">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="131bb94c-e285-4eda-9543-cc06e51651b3" />
+        </Properties>
+      </Node>
+      <Node name="LuzAnjoPastores" id="ce32dcc4-7d2e-44c5-8750-31158a59bed7" channelId="3fc62ce1-5fc1-40bf-b244-053569e39a0e">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0e76fd92-d0ed-4fb2-9e37-a53f72b05bd3" />
+        </Properties>
+      </Node>
+      <Node name="CaminhoCaravana" id="0f5e40f7-1db0-4b1f-aa57-9a9f4c9b9f6b" channelId="cd55f4e0-c400-43f2-92f1-83007feaa0da">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0cb67286-a36d-4b7f-8495-bae6bb2f5d6f" />
+        </Properties>
+      </Node>
+      <Node name="FocoCalvario" id="9e75c93b-c09e-462d-98e2-fb48846bd8f3" channelId="6c6e1c8c-19b0-47db-9cb6-944c4db5adf9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="87b67f64-e21b-43bb-b521-1e9589ee2a6f" />
+        </Properties>
+      </Node>
+      <Node name="SantaCeia1" id="f979dd11-16f4-4168-b971-c0833d2af2f3" channelId="7dd85735-583e-4ea6-aeb5-b957c08f47a2">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="5cae829b-2b1a-47ea-b96e-4a4498514b60" />
+        </Properties>
+      </Node>
+      <Node name="SantaCeia2" id="c20513d5-1919-4042-b2da-0b4e6f204686" channelId="9dcf126a-38f5-4e97-992a-4a9f2abaeac0">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="72e4adfc-1524-45c8-8a1d-16ef96a38d2c" />
+        </Properties>
+      </Node>
+      <Node name="Carpintaria" id="e882247d-1f37-42f3-bfbb-f59a63468e89" channelId="b9ada746-d387-48d8-be75-dfe1a3b568ef">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="f37589ad-b2b7-459b-8c89-35bb9b4e0780" />
+        </Properties>
+      </Node>
+      <Node name="Padaria" id="c61582d2-8035-4eeb-8803-d32838a05421" channelId="736fff3e-ce49-4d85-bc9e-128b5f48c7ea">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="7002a903-f94f-4c79-9833-619e88573fa6" />
+        </Properties>
+      </Node>
+      <Node name="Calvario" id="c24ed75e-c11c-4f09-a612-d45af01ae207" channelId="593bd867-8376-4f57-b8f1-929615fecfa4">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="f92c244f-40e2-4507-8a8a-73885669c934" />
+        </Properties>
+      </Node>
+      <Node name="RaioCalvario" id="0b041997-81f9-47b3-bbf9-2937caf32925" channelId="f4d1ee60-fce2-4816-9883-1153c6843a7c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="60e9b56d-bced-40e0-9e06-32986061d6ed" />
+        </Properties>
+      </Node>
+      <Node name="EstrelaDEBelem" id="73fb2335-0321-46e1-b246-58f30d61dc2d" channelId="5a47e6ea-11f4-4143-8610-72be4a14ac26">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="f854b2a5-a3ff-4192-bbcd-d5674fa51d73" />
+        </Properties>
+      </Node>
+      <Node name="LuzFinal1" id="71d299e4-7650-4e00-8ffb-d0ed95190839" channelId="f81b143a-92e4-4593-8874-be74be631911">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="2fc38303-4880-4dc3-a434-b5f95deaf6a7" />
+        </Properties>
+      </Node>
+      <Node name="dimmers11" id="2e4890d4-1fe7-4766-bb5a-1e3dd684fa85">
+        <Node name="LuzSalao" id="67303104-a70a-4a7b-863b-d5e669154d09" channelId="81013364-8136-4b6f-9a22-cb2454300e39">
+          <Properties>
+            <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="fe15b0c3-689e-4b23-8e4f-ed41382be07d" />
+          </Properties>
+        </Node>
+        <Node name="dimSalaDomBosco" id="18ae0373-23b4-4b74-8d67-7191883e6a7c" channelId="1006b87f-b85f-4537-bc93-4e476aecde7c">
+          <Properties>
+            <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="2e40e965-2c9f-48d7-8b48-0adc8dd1d243" />
+          </Properties>
+        </Node>
+        <Node name="PortaisBelem" id="2d447465-7670-4e61-963b-070dff977f49" channelId="4ba28d8e-4016-4b44-b739-b7b2c458dd6e">
+          <Properties>
+            <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="afaf9a02-368b-41d6-a6e7-408f2de11af7" />
+          </Properties>
+        </Node>
+      </Node>
+    </Node>
+    <Node name="Motores3" id="a9b450a8-2c0e-4c8a-aa2d-0aa0037d94cb">
+      <Node name="moinhoP" id="409533c4-7f07-4bcd-b1b5-a08af03d0f60" channelId="55c2f4b8-f545-4abc-b4ba-3ac727abeb04">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="13299fef-1a83-429c-83a3-efe7b82acf11" />
+        </Properties>
+      </Node>
+      <Node name="moinhoN" id="98f714b2-d14a-4c26-9871-03cc9b6b0ff4" channelId="5cb6dfee-4529-4d84-9140-e4c2d16d7227">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c2d91e1e-1d2a-4fe4-9f23-0ee5406ff92d" />
+        </Properties>
+      </Node>
+      <Node name="casa3n" id="127f2bd2-8c02-45cb-92ee-28d2112f6e78" channelId="d7bf1106-8427-4333-9b38-0723b92856d7">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="d76d42ba-fed9-4cfb-901f-288b4109d65d" />
+        </Properties>
+      </Node>
+      <Node name="casa3P" id="84c02af4-fc8e-42cd-a5c0-ec382d97d684" channelId="cc4f9e79-93c7-4ef7-9ae2-04e1e2ab7dd8">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="06cc7434-766c-4256-a4f6-79c2fbf451be" />
+        </Properties>
+      </Node>
+      <Node name="BelemCasa2p" id="6cd27e37-feab-4af2-9159-840c25bece28" channelId="d119daa6-6ae3-44c8-b9ce-62ca8b47fe1a">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="64ec8240-6cad-4427-a46a-dc6c088cc535" />
+        </Properties>
+      </Node>
+      <Node name="BelemCasa2n" id="74cb10dd-7838-42a8-88c1-e57ee3149ccc" channelId="7a6c1c84-9bf4-4fdc-bcba-2c85af2a1876">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="a4252615-e089-48bd-80a3-c119a8cf24cd" />
+        </Properties>
+      </Node>
+      <Node name="BelemCasa1n" id="1cdb5bd6-b263-4677-9769-bd82d9893e39" channelId="3e026da8-a141-4759-8132-783517e11408">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="93d92eaa-bf2e-4bf0-83ca-334afada5ed7" />
+        </Properties>
+      </Node>
+      <Node name="BelemCasa1p" id="a37ef064-5627-4f4e-9317-8d2fbdf5fb0c" channelId="70edd894-f250-4e5c-8e8f-0e9c861123be">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="86dace13-5916-45ed-a901-6ca83460dd0a" />
+        </Properties>
+      </Node>
+      <Node name="trilhoP" id="4383b316-f34a-415e-93ba-95f61bc16e90" channelId="214b8d5a-a729-4556-8603-8bea2354eea9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="e0313754-9bf0-4af5-8dc6-034ca91861c1" />
+        </Properties>
+      </Node>
+      <Node name="trilhoN" id="57324b2d-1d2a-45be-a272-6f59e0589809" channelId="49e02bf0-b636-4cf7-8c61-122bb13a9546">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="e7ae9054-135a-47f9-bbbe-cbe0686f996c" />
+        </Properties>
+      </Node>
+      <Node name="Cruzpx" id="1755d757-fa83-4472-b1a6-7a10718df3b9" channelId="818bf466-34f2-4441-b27a-1b3d99addbe9">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="09a5fd80-ac32-43b3-b481-3bc3e3ba1704" />
+        </Properties>
+      </Node>
+      <Node name="Cruznx" id="8c2aabe8-aa2a-487d-913c-7b58eb9bcf21" channelId="80be7c93-b063-4ac4-a04c-eae19148d79a">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="a643fd38-8aef-480e-88b0-f4f394740a4e" />
+        </Properties>
+      </Node>
+      <Node name="pedraAbre" id="76acee25-1fa2-42f7-ab27-4fe8c8fe53d2" channelId="ef6361a1-244b-4c62-9608-9b19385af8b6">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c34e7011-4dd2-4caa-8119-2da1d10dea16" />
+        </Properties>
+      </Node>
+      <Node name="pedraFecha" id="8c968e82-3b68-4cfd-9228-e152fd44a769" channelId="d168852f-130d-49f4-8bd3-72a885ac54b1">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="da3769b2-95f8-458a-b634-feb02f913d7d" />
+        </Properties>
+      </Node>
+      <Node name="cruzSobe" id="951b9337-1242-4d0f-9062-d1ea3d376a1d" channelId="f7ba4c74-636e-4821-aaad-d3a730009bcb">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ca327a30-ed00-4325-b006-b946290ecc15" />
+        </Properties>
+      </Node>
+      <Node name="cruzDesce" id="a01cec47-ba44-436a-89f6-25d05a578510" channelId="0c354662-a1c8-4225-b670-32933da98707">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="2a04ddf6-bead-43b8-bbd7-c23a6c33df4a" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="Motores4" id="d35bf099-c8cc-46a5-af21-14d2d144ca1d">
+      <Node name="RessurreicaoNSJCn" id="78a98d60-edb7-40b0-8598-4480962e1ecc" channelId="d5b31aeb-173d-45df-9303-856dee789687">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="6b9e06a7-3f26-4a69-91a3-d785353d09d1" />
+        </Properties>
+      </Node>
+      <Node name="RessurreicaoNSJCp" id="b59fcdb1-6b82-4d33-aa86-3c2618ede978" channelId="8ac4075c-7224-42b9-92b9-4d089e2da33f">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="be988e13-c2ef-401a-8751-50c669a16a9e" />
+        </Properties>
+      </Node>
+      <Node name="CaravanaN" id="34f6c20d-a9b5-49c9-82b5-97c24ac125c6" channelId="2cab234f-2ec3-4130-ab04-0b1135694697">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="ddaad35c-7cd5-40ba-8b10-6254f8302486" />
+        </Properties>
+      </Node>
+      <Node name="CaravanaP" id="59e4ca7c-48e2-4604-95eb-e398f4b405c1" channelId="5b83d902-55a4-4153-982a-1134f05d2a5d">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c257e5e7-92cc-443d-bb05-541bccae5481" />
+        </Properties>
+      </Node>
+      <Node name="Grutap" id="2d6db963-3676-4294-a073-448009d58a7c" channelId="c938d833-3130-4fb6-a705-ef6a1bc877e4">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="0d8a65c1-6e99-4b33-a713-c9086846c442" />
+        </Properties>
+      </Node>
+      <Node name="Grutan" id="e5004e4b-f510-49a4-bd32-df49ccb3a2e8" channelId="343d55d8-9a7c-443b-82fe-1258aee25d14">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="b1b5c153-d1ef-4801-bbe2-950ca56a8778" />
+        </Properties>
+      </Node>
+      <Node name="Anjosp" id="6fcff4c2-a22f-4ee3-a753-ff2307510f72" channelId="709d0cd8-2e16-4a65-bf17-f6c84cb7004c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="fd94d1ae-b6b5-4edd-83db-d3f28cfc5026" />
+        </Properties>
+      </Node>
+      <Node name="Anjosn" id="e85aff3a-7e22-4c4a-8bb0-37d542fa6968" channelId="4c707431-894e-44c7-bc9e-03d2dcfe4e44">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="959d7aa1-03da-4c83-b993-a0d05b13c0a9" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="ledsRGB4" id="6e625069-4bb3-46b2-a45a-ddaaf40b2b9d">
+      <Node name="ceia" id="bb10c9cf-deba-4665-9217-cb1db9e09d2b" channelId="b4622190-e54f-4d4e-9ddb-6d0e1daf9272">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="b55d5d11-652f-4b97-a141-7af71ba9ff42" />
+        </Properties>
+      </Node>
+      <Node name="torreCristal" id="6aa24e4f-cc8a-4de4-ba3c-a9f1d17d5712" channelId="04262030-1236-4bb1-8c70-144395aa65fd">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="317e2704-a36a-4392-9a0a-a59bfcfdb9b1" />
+        </Properties>
+      </Node>
+      <Node name="NsaSra" id="3e26ae54-c783-41ee-83a3-01ce632ee1e2" channelId="56516bdc-5ac3-4d70-bccc-050c4aa3da5d">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="8f4654de-1594-4a07-959e-7c2d63a14a71" />
+        </Properties>
+      </Node>
+      <Node name="camelo" id="99853e5d-221f-47ab-9d48-0862f7046a3a" channelId="3963af04-d224-48d4-b703-dc9c311831b5">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="448c80cf-eebd-4d99-8328-da5f288bab35" />
+        </Properties>
+      </Node>
+      <Node name="reis" id="bead15a2-0b16-4818-8b03-020d94b3a72f" channelId="a86fc23d-3abc-4945-b074-9cae37a0c237">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="e11bfd04-4578-4e1c-b8a1-7e07f743b340" />
+        </Properties>
+      </Node>
+      <Node name="Nazaré" id="8f39ec52-00cf-40db-84a5-e20830cd5502" channelId="a2f398d3-0959-49fb-8076-c127a4993751">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="b6c5166f-f2ab-44e7-b078-dfb55e09d94b" />
+        </Properties>
+      </Node>
+      <Node name="SaoJose" id="25a7b212-04e6-42a8-a9e4-80276f190255" channelId="86c86502-9a94-48d8-a416-2ab61d26e33c">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="c8b0b539-d981-4649-a475-5b78da65bb18" />
+        </Properties>
+      </Node>
+      <Node name="gruta" id="3888ed66-7066-42cd-8c87-0b60a37c1085" channelId="110fecaa-4f45-4d4a-afd5-3e1d2bb201be">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="4a40c8b7-5806-49ca-af11-aaa4a4e65120" />
+        </Properties>
+      </Node>
+      <Node name="pastores" id="f958f5ad-1bef-48a4-9dc4-66491f5f0336" channelId="342bb6a8-c319-4256-87d1-9f1c51b8745e">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="b4f461fe-2afe-458c-bf34-120f0769d520" />
+        </Properties>
+      </Node>
+      <Node name="lago" id="b985694c-c90c-4f41-a4c5-f5be4dfceb06" channelId="804b5892-3904-480f-82a5-4020f44f7ee6">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="df8c3fcd-bd36-4274-a708-efd0f0473d3e" />
+        </Properties>
+      </Node>
+      <Node name="romanos" id="e0b3bbd8-1b7b-45d1-9c74-0f431d0ba6b3" channelId="e67fe9c0-4213-43db-aff7-0131d48beb58">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="702988d1-bc95-4c16-b25a-578348a83e3e" />
+        </Properties>
+      </Node>
+      <Node name="cachoeira" id="effe6497-dd7e-4c97-81f1-2a3a598785fb" channelId="da81c41c-125d-4856-a07f-d3aae175fddb">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="262f74d3-cc43-4fe0-9bc8-0e98e5d500eb" />
+        </Properties>
+      </Node>
+      <Node name="Cesar" id="9eca8fe4-c0ad-4c2b-93d3-c92391b46fee" channelId="163723c6-3a0c-4486-880d-94540c1ec762">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="497f4641-3cd9-433d-92d9-4315bcf208a3" />
+        </Properties>
+      </Node>
+      <Node name="anjo" id="916e8c24-78f9-48d5-a777-d1b67f0f364a" channelId="5c0b1be9-432c-42bc-ab22-f3a45347f77a">
+        <Properties>
+          <Property typeId="bff34727-6b88-4f87-82b7-68424498c725" instanceId="18342378-9906-4a4e-867b-a9b40f56b8e2" />
+        </Properties>
+      </Node>
+    </Node>
+    <Node name="reles11" id="8daa1ce5-7d93-4f60-a324-05da765f8a61">
+      <Node name="SãoGabriel" id="4e44e889-740d-47c9-96cd-5b3608547fd6" channelId="ee38f348-8f42-41f9-9d6e-74a426bcf428" />
+      <Node name="FocoMeninoJesus" id="6a26346e-7221-4d4c-bbe1-2a2d1cffb60b" channelId="5bc8bf85-1bd0-4641-a064-39465f116434" />
+      <Node name="FocoGruta" id="21f9e48e-91e2-476e-aea8-6b69433fce7c" channelId="e08946e5-a9fd-44e9-89d5-4fb372029681" />
+    </Node>
+  </Nodes>
+  <Controllers>
+    <Controller name="arduino1" hardwareId="d22c9233-16e9-4008-a215-e577f78a7a2e" hardwareInstanceId="2546dd9d-c743-4796-a662-d66133a8d2cd" id="672a1a1b-965e-4c0e-b171-db1a35248fcc">
+      <Outputs>
+        <Output name="Output 1" id="c6cb0113-3bfe-494b-a897-b9e82da1b666" />
+        <Output name="Output 2" id="717fee41-1f62-480b-a270-8c0e3b7c3c32" />
+        <Output name="Output 3" id="baca0393-a731-405c-86d0-f112fb2464c3" />
+        <Output name="Output 4" id="840f0b38-f181-4da9-b25e-4188f20cb2f7" />
+        <Output name="Output 5" id="7f84a4fa-8088-443b-8313-cee04e21aef4" />
+        <Output name="Output 6" id="1e1ff58b-3361-4a60-a678-8ea6dda17abd" />
+        <Output name="Output 7" id="61c861da-54a0-4f21-98ad-fdfb837e5035" />
+        <Output name="Output 8" id="0eff61a0-7999-4375-a320-c9e843994d13" />
+        <Output name="Output 9" id="13d0d45c-5a5f-4f18-aea2-afc6c2a49fbf" />
+        <Output name="Output 10" id="26782a9c-acce-4ef0-a527-8bdb4e1bd3a6" />
+        <Output name="Output 11" id="f957db84-9964-4216-9a4e-58ae22f47514" />
+        <Output name="Output 12" id="3167cfd8-7d0f-4a84-b617-e1d644e1413d" />
+        <Output name="Output 13" id="68fead0b-f08a-4591-8585-5308cb0cbdee" />
+        <Output name="Output 14" id="4c185e06-8873-41f2-a343-ae4ef8364ecf" />
+        <Output name="Output 15" id="571fd90c-9663-451c-9952-1835861f05ad" />
+        <Output name="Output 16" id="9c1c6339-d603-4e9b-bfe9-57f8858884ab" />
+        <Output name="Output 17" id="dc4406a3-af9c-4f19-ace1-631a4ef3a8ac" />
+        <Output name="Output 18" id="055e8622-8a8f-41a8-983a-f59bac7811c3" />
+        <Output name="Output 19" id="1e93365b-b0d2-42bb-ac59-ba162447fd9e" />
+        <Output name="Output 20" id="b7f44fc6-1ad4-4bc8-8706-32be833c807b" />
+        <Output name="Output 21" id="89c54fd9-7802-43d0-bdd4-d3491df9a10e" />
+        <Output name="Output 22" id="fd124a2f-b8b4-44c4-b341-589df5b005da" />
+        <Output name="Output 23" id="0ad3a403-55a7-4a74-9f6a-759e6defa69d" />
+        <Output name="Output 24" id="4ee4f9ec-d647-4764-b715-da60a00f30bc" />
+        <Output name="Output 25" id="70c47f0e-a8b1-41bf-b934-4a46618cd3b8" />
+        <Output name="Output 26" id="6b9809ca-87f7-4df5-b9ad-83b67571bc1e" />
+        <Output name="Output 27" id="3e5ef431-92c0-46f7-88c2-d56c0c661272" />
+        <Output name="Output 28" id="11709100-4dc7-41ac-a581-c022bea63db2" />
+        <Output name="Output 29" id="92ac975d-e606-42f8-a47f-73887916f953" />
+        <Output name="Output 30" id="3f1f7057-4d1d-4795-b400-b3bb84316260" />
+        <Output name="Output 31" id="603f20e5-5f78-4774-ae70-ca0f6e8a7c23" />
+      </Outputs>
+    </Controller>
+    <Controller name="arduino2" hardwareId="d22c9233-16e9-4008-a215-e577f78a7a2e" hardwareInstanceId="cf9d80b6-def3-4f1b-b112-fdcc170bbf5b" id="58ee8265-426d-4944-8eeb-9b60ebdc3570">
+      <Outputs>
+        <Output name="Output 1" id="bedcd3d8-4e67-4e6f-8868-921bad665168" />
+        <Output name="Output 2" id="ab02a5ad-984c-4948-8621-53c17d9c5ff5" />
+        <Output name="Output 3" id="f79cb315-c279-467f-ad22-2044cd352f20" />
+        <Output name="Output 4" id="9cc2a29e-5acf-4ff6-8dbe-f2011d19c90f" />
+        <Output name="Output 5" id="90e6cc39-a1f9-4799-bf90-d76bf6b9b85c" />
+        <Output name="Output 6" id="d21b01ac-3158-49d8-b3d5-081df91f9295" />
+        <Output name="Output 7" id="4a36c76c-b135-4b9f-91f2-093f43a4ee17" />
+        <Output name="Output 8" id="db9c3826-3c57-4e0a-ad58-ca2791ee8517" />
+        <Output name="Output 9" id="204b6f65-942c-4c53-a1a1-7f73e170af58" />
+        <Output name="Output 10" id="517d6bc0-eddc-4e3f-af4a-78fb5531eac2" />
+        <Output name="Output 11" id="5079f449-da67-4d4f-a48e-7d0cc13d7c39" />
+        <Output name="Output 12" id="9b1ddf50-cf91-43ea-b2c5-7e87b1e791d1" />
+        <Output name="Output 13" id="3b262a62-093e-4976-a0a5-d73358dbe487" />
+        <Output name="Output 14" id="e10c42a5-804b-452c-9343-32dc5288e0a8" />
+        <Output name="Output 15" id="97f213e0-6998-454a-b768-5b3ba4bd0200" />
+        <Output name="Output 16" id="7f79e75b-9790-484f-9a41-b1894eec38b3" />
+        <Output name="Output 17" id="a51883b5-a95d-41be-9573-7b6de7ee2e12" />
+        <Output name="Output 18" id="8ac002c6-c837-4833-b41e-e1e432c7e55b" />
+        <Output name="Output 19" id="76318ba6-ec5b-4416-a383-fbea80e2960a" />
+        <Output name="Output 20" id="0c1caf94-d5e0-4959-aac4-9cd072e90777" />
+        <Output name="Output 21" id="efe7bf31-3704-4e03-a0e2-645aca36e8ee" />
+        <Output name="Output 22" id="b641990d-0f2a-4ccc-a628-48f5a4bf8096" />
+        <Output name="Output 23" id="64588080-b245-4938-a2ce-7488d5b89e9f" />
+        <Output name="Output 24" id="fae2b8ea-e02d-4bc2-a2bc-80323ca98e0a" />
+        <Output name="Output 25" id="9ce2dfb6-a536-44cf-874c-019770b130a6" />
+        <Output name="Output 26" id="1d2bcfcc-d970-4bd4-aea2-fa412499d476" />
+        <Output name="Output 27" id="9bb42ed5-fb82-4a07-9d60-6ccf69106eab" />
+        <Output name="Output 28" id="5148a4e1-cb73-47a4-87ef-a3d024eb429a" />
+        <Output name="Output 29" id="f82793b4-88f3-4c6b-81fb-08feab91e7c1" />
+        <Output name="Output 30" id="e1d4b42a-35c3-47bc-98ba-0a56ecd4ca1b" />
+        <Output name="Output 31" id="759d6683-aca1-46a7-b322-37a3dbc3a244" />
+        <Output name="Output 32" id="aa81cf1e-1ce2-4d17-8f8f-38c7c3d97b18" />
+        <Output name="Output 33" id="0fb7e4dd-74ad-4478-809f-ed2bf810c09e" />
+        <Output name="Output 34" id="7f4659d6-e4a8-4263-a406-ff8d3ffe553b" />
+        <Output name="Output 35" id="001547cb-bef2-4a86-a5d7-31678b1236b3" />
+        <Output name="Output 36" id="a0514468-a626-4abf-86c4-645e7b8d14e1" />
+        <Output name="Output 37" id="5bd13e7d-afc3-4929-b641-a3e6d1da86bc" />
+        <Output name="Output 38" id="0c125ae7-c8ae-43c3-8585-b81a65ca81e5" />
+        <Output name="Output 39" id="f01040c2-7e8f-44d7-a260-582e17d0dcb4" />
+        <Output name="Output 40" id="369200ea-c23f-4ad6-956a-9eac12074fd2" />
+        <Output name="Output 41" id="6c0e14e6-9d65-4d19-8a84-bf52b21483ae" />
+        <Output name="Output 42" id="b00a513d-4e42-4141-b84c-ac311c9200d6" />
+      </Outputs>
+    </Controller>
+    <Controller name="arduino3" hardwareId="d22c9233-16e9-4008-a215-e577f78a7a2e" hardwareInstanceId="57469583-2726-480b-a991-56637443e575" id="6f2ac8d6-f31b-4043-8a42-76a3bf2cc791">
+      <Outputs>
+        <Output name="Output 1" id="1d13ed14-3848-433a-81d8-98674490152c" />
+        <Output name="Output 2" id="2600b265-1d91-4309-8a1a-a325095de936" />
+        <Output name="Output 3" id="c1d99024-f73c-48c1-b5be-90d455ee1f18" />
+        <Output name="Output 4" id="f3d3630a-2e1d-4c96-8aa5-75f3b1d77f7e" />
+        <Output name="Output 5" id="67549f0d-3570-459f-99e3-429e6b24551c" />
+        <Output name="Output 6" id="db3f7dce-d5f5-4e6f-83cf-eeb95d075089" />
+        <Output name="Output 7" id="9ecdd0bc-87bf-4b49-aaf7-e962731773a7" />
+        <Output name="Output 8" id="ad5f0f3e-45d2-48e8-8558-0bdda388f597" />
+        <Output name="Output 9" id="b0a86915-d216-4fb9-a74b-0033e74d0866" />
+        <Output name="Output 10" id="79bf4bab-8b01-419e-a2f6-d76a823ea865" />
+        <Output name="Output 11" id="231e8e99-8804-4c03-9dd5-b73874eb6409" />
+        <Output name="Output 12" id="827ad4c7-fd7f-4dac-aed4-1eda374c35d5" />
+        <Output name="Output 13" id="7b473f7f-c3ee-4731-ae14-cf91ff10ee51" />
+        <Output name="Output 14" id="fe65c6e1-e127-4eb1-bc43-9b77065e9216" />
+        <Output name="Output 15" id="c251bb17-c122-4cbf-9f6f-e6b4d6a13b67" />
+        <Output name="Output 16" id="0c039231-99a4-4854-8ed7-6fae97515441" />
+      </Outputs>
+    </Controller>
+    <Controller name="arduino4" hardwareId="d22c9233-16e9-4008-a215-e577f78a7a2e" hardwareInstanceId="e15acf80-56d2-4b5b-bbbc-9d5d284ef92a" id="1a25d34a-3477-4820-92b7-9eaa39a253ed">
+      <Outputs>
+        <Output name="Output 1" id="16744035-3fc3-4a7e-8924-5ab9c4dd4b35" />
+        <Output name="Output 2" id="be10b729-4d20-475c-a3ea-9e4a3eb673da" />
+        <Output name="Output 3" id="8241b2c8-7fdd-430d-9927-ad85af82ac35" />
+        <Output name="Output 4" id="02d18819-6ed5-45db-b4e0-1efb7c5b993e" />
+        <Output name="Output 5" id="8903225f-548d-414a-988e-42bd03107dd8" />
+        <Output name="Output 6" id="59204159-e0c1-4554-ab0f-ed53018d499f" />
+        <Output name="Output 7" id="4c837cd6-ab97-485f-82b5-8676a24d9176" />
+        <Output name="Output 8" id="d63cf893-646f-487f-9a83-66cd61c1281d" />
+        <Output name="Output 9" id="92604d38-5604-4c15-a892-36672ef3bef1" />
+        <Output name="Output 10" id="11a37998-1f8f-4b86-b721-76a50a36e120" />
+        <Output name="Output 11" id="c0995f86-a84d-4415-ba21-81f2bf39e2c9" />
+        <Output name="Output 12" id="9838ba43-abf1-478f-9d4e-d398a27ae806" />
+        <Output name="Output 13" id="2055c044-4c09-4d8e-821b-48a072255578" />
+        <Output name="Output 14" id="0beac88d-f427-4acf-9139-ae9e052a7078" />
+        <Output name="Output 15" id="b28adf48-7791-4330-9e38-f50e2f6d81cf" />
+        <Output name="Output 16" id="2b4a1997-c4c8-4d4e-83d0-b09761da4184" />
+        <Output name="Output 17" id="859d0eb7-bf8b-4aee-89fd-fe095eeaecba" />
+        <Output name="Output 18" id="e5521672-6e1d-4f36-b0d4-710e9d67357f" />
+        <Output name="Output 19" id="7e08d8f0-1086-448c-8e6a-7d5e6d4ea0a2" />
+        <Output name="Output 20" id="b2a49bf6-3f9b-4f7c-a7c4-4b31f9f54f91" />
+        <Output name="Output 21" id="25f0b491-c32f-4fbf-98d8-02a4cd44113b" />
+        <Output name="Output 22" id="9ab0e5a2-c23f-44c4-9353-0dfe97c35f13" />
+      </Outputs>
+    </Controller>
+  </Controllers>
+  <Previews />
+  <Filters>
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="b0fd3dfc-b27a-4e90-afa7-4e1f9ac7d42f" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="9a79b88a-f2e9-47f4-8297-ccd6cade9661" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="958bf9eb-df4d-4a6c-bc4b-eb6a61cd1b5b" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="b63b4296-b6fa-4a80-8e4d-27669880cb1a" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="3c8653a0-0cbb-4e29-a8be-e64cc1a23183" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="8963c2f9-48e6-4ca8-b9f6-cd14dcde268b" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="2daf4662-58e1-41fd-8001-8939f0a2761c" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="982d59da-dd70-4a70-a498-bf337ad7fd30" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="069e4aa0-1b98-4711-9c3b-5e72ca6a173f" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="1f636c30-a7ba-49b4-bcbf-ea893d8ba6b6" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="adbe6db8-b343-49f3-930e-5f63b87b5b4b" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="903badc6-5e34-41cc-bc88-2889e651fd82" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="b3b334e0-2a43-48f4-9da7-046aa41f11c6" />
+    <FilterNode typeId="ab38a16f-0de1-4f6e-a8c0-ae5b20d347e0" instanceId="f6ff8680-a010-47a5-8675-ef77ac2a6820" />
+  </Filters>
+  <Patches>
+    <Patch componentId="0eff61a0-7999-4375-a320-c9e843994d13" sourceId="05a863a2-f5ab-4029-808b-006f7219808d" output="0" />
+    <Patch componentId="61c861da-54a0-4f21-98ad-fdfb837e5035" sourceId="3c21ca77-728e-49c8-b432-315ab2bf0295" output="0" />
+    <Patch componentId="13d0d45c-5a5f-4f18-aea2-afc6c2a49fbf" sourceId="b70d0c38-a717-4c03-a418-9f0807a5e97c" output="0" />
+    <Patch componentId="26782a9c-acce-4ef0-a527-8bdb4e1bd3a6" sourceId="80753366-75ee-462e-a590-2325b7dd0c60" output="0" />
+    <Patch componentId="f957db84-9964-4216-9a4e-58ae22f47514" sourceId="517f3d8c-88e9-4f51-b133-1b91ff350d03" output="0" />
+    <Patch componentId="3167cfd8-7d0f-4a84-b617-e1d644e1413d" sourceId="e78d685b-8d55-413a-9d39-1379df9f35d7" output="0" />
+    <Patch componentId="68fead0b-f08a-4591-8585-5308cb0cbdee" sourceId="15049f97-30a3-4350-bee0-1fe210b3f9c1" output="0" />
+    <Patch componentId="dc4406a3-af9c-4f19-ace1-631a4ef3a8ac" sourceId="6406754e-c719-4ce4-89f8-067be8bd00ac" output="0" />
+    <Patch componentId="055e8622-8a8f-41a8-983a-f59bac7811c3" sourceId="d6f1afab-0613-4514-9b67-26e6e8bd5573" output="0" />
+    <Patch componentId="b7f44fc6-1ad4-4bc8-8706-32be833c807b" sourceId="0f6d7d6e-08a8-4f95-a4f4-a6df29d14b80" output="0" />
+    <Patch componentId="89c54fd9-7802-43d0-bdd4-d3491df9a10e" sourceId="01d3d0ea-1589-4fae-8cf8-dd4df0d82994" output="0" />
+    <Patch componentId="1e93365b-b0d2-42bb-ac59-ba162447fd9e" sourceId="71264cb0-66b7-4719-a69a-f4e557a5d79c" output="0" />
+    <Patch componentId="fd124a2f-b8b4-44c4-b341-589df5b005da" sourceId="6dd5f6c4-ff61-43b2-a165-7eeeff8cc399" output="0" />
+    <Patch componentId="0ad3a403-55a7-4a74-9f6a-759e6defa69d" sourceId="0fb0515c-cd4d-4627-aba4-8b48ce4049a5" output="0" />
+    <Patch componentId="4ee4f9ec-d647-4764-b715-da60a00f30bc" sourceId="bead7cd9-f08b-428b-b6f3-090ccc0fd53e" output="0" />
+    <Patch componentId="c6cb0113-3bfe-494b-a897-b9e82da1b666" sourceId="e7114e47-0f83-4210-ae20-414733161fa7" output="0" />
+    <Patch componentId="717fee41-1f62-480b-a270-8c0e3b7c3c32" sourceId="32a255d2-ff29-44f3-8546-2b77ecbf5bf2" output="0" />
+    <Patch componentId="baca0393-a731-405c-86d0-f112fb2464c3" sourceId="92166684-53e5-443e-a7c6-f54505c424b9" output="0" />
+    <Patch componentId="840f0b38-f181-4da9-b25e-4188f20cb2f7" sourceId="ec89a297-dc2c-4062-8a07-d55530dc7b74" output="0" />
+    <Patch componentId="7f84a4fa-8088-443b-8313-cee04e21aef4" sourceId="11a04155-2a75-4a1d-ac60-0eee9b46561a" output="0" />
+    <Patch componentId="1e1ff58b-3361-4a60-a678-8ea6dda17abd" sourceId="1640deb3-64bd-4141-90d0-448bcd209568" output="0" />
+    <Patch componentId="70c47f0e-a8b1-41bf-b934-4a46618cd3b8" sourceId="0bd44e5e-7787-4747-805f-dcae394f04d3" output="0" />
+    <Patch componentId="6b9809ca-87f7-4df5-b9ad-83b67571bc1e" sourceId="c0a18804-65a6-4613-bf5d-62ec5426a8ac" output="0" />
+    <Patch componentId="3e5ef431-92c0-46f7-88c2-d56c0c661272" sourceId="0dba7fee-bf8f-4d6f-bbba-53cb47481546" output="0" />
+    <Patch componentId="11709100-4dc7-41ac-a581-c022bea63db2" sourceId="cee4319b-8621-4a01-a9b7-1a6aa56de98d" output="0" />
+    <Patch componentId="bedcd3d8-4e67-4e6f-8868-921bad665168" sourceId="ca8fd7c1-ffe9-42ab-abdb-ef0b2d7917a7" output="0" />
+    <Patch componentId="ab02a5ad-984c-4948-8621-53c17d9c5ff5" sourceId="fd4db9d8-b319-48d5-ac2c-97bd6b3933f9" output="0" />
+    <Patch componentId="f79cb315-c279-467f-ad22-2044cd352f20" sourceId="be7b3187-b82a-4385-bc0a-7ce434044a37" output="0" />
+    <Patch componentId="9cc2a29e-5acf-4ff6-8dbe-f2011d19c90f" sourceId="9fddfe51-b906-4c3e-8161-2ce196e67647" output="0" />
+    <Patch componentId="90e6cc39-a1f9-4799-bf90-d76bf6b9b85c" sourceId="a3e6c3d1-e1fd-433a-882e-a7732756f993" output="0" />
+    <Patch componentId="d21b01ac-3158-49d8-b3d5-081df91f9295" sourceId="428e1b73-0ceb-4d59-9339-4f4de1e3a59a" output="0" />
+    <Patch componentId="4a36c76c-b135-4b9f-91f2-093f43a4ee17" sourceId="c8bba33a-d551-4548-9ccd-3f84c25a006e" output="0" />
+    <Patch componentId="db9c3826-3c57-4e0a-ad58-ca2791ee8517" sourceId="9575e5dd-79f2-4ec5-9898-fa6a404647fa" output="0" />
+    <Patch componentId="204b6f65-942c-4c53-a1a1-7f73e170af58" sourceId="f36ee6a2-75ad-4e42-bb13-5328b3a037c1" output="0" />
+    <Patch componentId="517d6bc0-eddc-4e3f-af4a-78fb5531eac2" sourceId="184ce6bc-62dd-4469-b67b-418ecbf0fa5c" output="0" />
+    <Patch componentId="5079f449-da67-4d4f-a48e-7d0cc13d7c39" sourceId="3cade8b8-30ba-49a0-8366-c1583fb68905" output="0" />
+    <Patch componentId="9b1ddf50-cf91-43ea-b2c5-7e87b1e791d1" sourceId="873a745b-5a49-42df-af5e-49cd51f2e417" output="0" />
+    <Patch componentId="3b262a62-093e-4976-a0a5-d73358dbe487" sourceId="ea92ee44-f48d-46fb-afe2-0a188e59adae" output="0" />
+    <Patch componentId="e10c42a5-804b-452c-9343-32dc5288e0a8" sourceId="613473be-33ee-479b-a6f5-4b9c1d563681" output="0" />
+    <Patch componentId="97f213e0-6998-454a-b768-5b3ba4bd0200" sourceId="a2ed049c-b551-499c-9813-0711a47647f9" output="0" />
+    <Patch componentId="7f79e75b-9790-484f-9a41-b1894eec38b3" sourceId="7984ea81-3c6f-436e-ba0b-45808f213f9b" output="0" />
+    <Patch componentId="a51883b5-a95d-41be-9573-7b6de7ee2e12" sourceId="0ed389e0-b8ac-4b06-a9cb-b1845350e91b" output="0" />
+    <Patch componentId="8ac002c6-c837-4833-b41e-e1e432c7e55b" sourceId="19f5e9e2-a340-4fc5-8191-6932f6cb8507" output="0" />
+    <Patch componentId="76318ba6-ec5b-4416-a383-fbea80e2960a" sourceId="e8555d94-2d05-411e-853e-94aa2d28d130" output="0" />
+    <Patch componentId="0c1caf94-d5e0-4959-aac4-9cd072e90777" sourceId="d29090e3-8ab9-4c63-bd4d-8a85b7ec9391" output="0" />
+    <Patch componentId="efe7bf31-3704-4e03-a0e2-645aca36e8ee" sourceId="6c9e3a6e-c347-477f-9748-f3a8560f93e3" output="0" />
+    <Patch componentId="b641990d-0f2a-4ccc-a628-48f5a4bf8096" sourceId="ebfc1c81-9f00-43e2-8992-dbbeb5610bad" output="0" />
+    <Patch componentId="64588080-b245-4938-a2ce-7488d5b89e9f" sourceId="94c8279d-78c3-4e3a-86fc-82e9529519e8" output="0" />
+    <Patch componentId="fae2b8ea-e02d-4bc2-a2bc-80323ca98e0a" sourceId="751fd4c2-511a-4612-bc57-bfc7e0b30889" output="0" />
+    <Patch componentId="9ce2dfb6-a536-44cf-874c-019770b130a6" sourceId="af64eacf-60f5-4f7b-932c-77ff90e31939" output="0" />
+    <Patch componentId="1d2bcfcc-d970-4bd4-aea2-fa412499d476" sourceId="00f24fdd-b48a-41a1-a7c7-39ddb2624bcd" output="0" />
+    <Patch componentId="9bb42ed5-fb82-4a07-9d60-6ccf69106eab" sourceId="007f1fa9-e299-4c71-b779-94c04c109bd6" output="0" />
+    <Patch componentId="c251bb17-c122-4cbf-9f6f-e6b4d6a13b67" sourceId="f7ba4c74-636e-4821-aaad-d3a730009bcb" output="0" />
+    <Patch componentId="fe65c6e1-e127-4eb1-bc43-9b77065e9216" sourceId="d168852f-130d-49f4-8bd3-72a885ac54b1" output="0" />
+    <Patch componentId="7b473f7f-c3ee-4731-ae14-cf91ff10ee51" sourceId="ef6361a1-244b-4c62-9608-9b19385af8b6" output="0" />
+    <Patch componentId="827ad4c7-fd7f-4dac-aed4-1eda374c35d5" sourceId="80be7c93-b063-4ac4-a04c-eae19148d79a" output="0" />
+    <Patch componentId="231e8e99-8804-4c03-9dd5-b73874eb6409" sourceId="818bf466-34f2-4441-b27a-1b3d99addbe9" output="0" />
+    <Patch componentId="79bf4bab-8b01-419e-a2f6-d76a823ea865" sourceId="49e02bf0-b636-4cf7-8c61-122bb13a9546" output="0" />
+    <Patch componentId="b0a86915-d216-4fb9-a74b-0033e74d0866" sourceId="214b8d5a-a729-4556-8603-8bea2354eea9" output="0" />
+    <Patch componentId="ad5f0f3e-45d2-48e8-8558-0bdda388f597" sourceId="70edd894-f250-4e5c-8e8f-0e9c861123be" output="0" />
+    <Patch componentId="9ecdd0bc-87bf-4b49-aaf7-e962731773a7" sourceId="3e026da8-a141-4759-8132-783517e11408" output="0" />
+    <Patch componentId="db3f7dce-d5f5-4e6f-83cf-eeb95d075089" sourceId="7a6c1c84-9bf4-4fdc-bcba-2c85af2a1876" output="0" />
+    <Patch componentId="67549f0d-3570-459f-99e3-429e6b24551c" sourceId="d119daa6-6ae3-44c8-b9ce-62ca8b47fe1a" output="0" />
+    <Patch componentId="f3d3630a-2e1d-4c96-8aa5-75f3b1d77f7e" sourceId="cc4f9e79-93c7-4ef7-9ae2-04e1e2ab7dd8" output="0" />
+    <Patch componentId="c1d99024-f73c-48c1-b5be-90d455ee1f18" sourceId="d7bf1106-8427-4333-9b38-0723b92856d7" output="0" />
+    <Patch componentId="2600b265-1d91-4309-8a1a-a325095de936" sourceId="5cb6dfee-4529-4d84-9140-e4c2d16d7227" output="0" />
+    <Patch componentId="1d13ed14-3848-433a-81d8-98674490152c" sourceId="55c2f4b8-f545-4abc-b4ba-3ac727abeb04" output="0" />
+    <Patch componentId="f01040c2-7e8f-44d7-a260-582e17d0dcb4" sourceId="f81b143a-92e4-4593-8874-be74be631911" output="0" />
+    <Patch componentId="0c125ae7-c8ae-43c3-8585-b81a65ca81e5" sourceId="5a47e6ea-11f4-4143-8610-72be4a14ac26" output="0" />
+    <Patch componentId="5bd13e7d-afc3-4929-b641-a3e6d1da86bc" sourceId="f4d1ee60-fce2-4816-9883-1153c6843a7c" output="0" />
+    <Patch componentId="a0514468-a626-4abf-86c4-645e7b8d14e1" sourceId="593bd867-8376-4f57-b8f1-929615fecfa4" output="0" />
+    <Patch componentId="001547cb-bef2-4a86-a5d7-31678b1236b3" sourceId="736fff3e-ce49-4d85-bc9e-128b5f48c7ea" output="0" />
+    <Patch componentId="7f4659d6-e4a8-4263-a406-ff8d3ffe553b" sourceId="b9ada746-d387-48d8-be75-dfe1a3b568ef" output="0" />
+    <Patch componentId="0fb7e4dd-74ad-4478-809f-ed2bf810c09e" sourceId="9dcf126a-38f5-4e97-992a-4a9f2abaeac0" output="0" />
+    <Patch componentId="aa81cf1e-1ce2-4d17-8f8f-38c7c3d97b18" sourceId="7dd85735-583e-4ea6-aeb5-b957c08f47a2" output="0" />
+    <Patch componentId="759d6683-aca1-46a7-b322-37a3dbc3a244" sourceId="6c6e1c8c-19b0-47db-9cb6-944c4db5adf9" output="0" />
+    <Patch componentId="e1d4b42a-35c3-47bc-98ba-0a56ecd4ca1b" sourceId="cd55f4e0-c400-43f2-92f1-83007feaa0da" output="0" />
+    <Patch componentId="f82793b4-88f3-4c6b-81fb-08feab91e7c1" sourceId="3fc62ce1-5fc1-40bf-b244-053569e39a0e" output="0" />
+    <Patch componentId="5148a4e1-cb73-47a4-87ef-a3d024eb429a" sourceId="e3740dfe-810d-40a9-bcb3-0dda9e29e505" output="0" />
+    <Patch componentId="369200ea-c23f-4ad6-956a-9eac12074fd2" sourceId="6ec13721-a5de-404e-b212-e7acd41f4f25" output="0" />
+    <Patch componentId="6c0e14e6-9d65-4d19-8a84-bf52b21483ae" sourceId="1c9c92b6-ef14-4398-990e-c0ae79ee6008" output="0" />
+    <Patch componentId="b00a513d-4e42-4141-b84c-ac311c9200d6" sourceId="60b37155-c5ba-4f92-a16f-4dd08f627f3b" output="0" />
+    <Patch componentId="0c039231-99a4-4854-8ed7-6fae97515441" sourceId="0c354662-a1c8-4225-b670-32933da98707" output="0" />
+    <Patch componentId="16744035-3fc3-4a7e-8924-5ab9c4dd4b35" sourceId="d5b31aeb-173d-45df-9303-856dee789687" output="0" />
+    <Patch componentId="be10b729-4d20-475c-a3ea-9e4a3eb673da" sourceId="8ac4075c-7224-42b9-92b9-4d089e2da33f" output="0" />
+    <Patch componentId="8241b2c8-7fdd-430d-9927-ad85af82ac35" sourceId="2cab234f-2ec3-4130-ab04-0b1135694697" output="0" />
+    <Patch componentId="02d18819-6ed5-45db-b4e0-1efb7c5b993e" sourceId="5b83d902-55a4-4153-982a-1134f05d2a5d" output="0" />
+    <Patch componentId="8903225f-548d-414a-988e-42bd03107dd8" sourceId="c938d833-3130-4fb6-a705-ef6a1bc877e4" output="0" />
+    <Patch componentId="59204159-e0c1-4554-ab0f-ed53018d499f" sourceId="343d55d8-9a7c-443b-82fe-1258aee25d14" output="0" />
+    <Patch componentId="4c837cd6-ab97-485f-82b5-8676a24d9176" sourceId="709d0cd8-2e16-4a65-bf17-f6c84cb7004c" output="0" />
+    <Patch componentId="d63cf893-646f-487f-9a83-66cd61c1281d" sourceId="4c707431-894e-44c7-bc9e-03d2dcfe4e44" output="0" />
+    <Patch componentId="958bf9eb-df4d-4a6c-bc4b-eb6a61cd1b5b" sourceId="56516bdc-5ac3-4d70-bccc-050c4aa3da5d" output="0" />
+    <Patch componentId="9a79b88a-f2e9-47f4-8297-ccd6cade9661" sourceId="04262030-1236-4bb1-8c70-144395aa65fd" output="0" />
+    <Patch componentId="b0fd3dfc-b27a-4e90-afa7-4e1f9ac7d42f" sourceId="b4622190-e54f-4d4e-9ddb-6d0e1daf9272" output="0" />
+    <Patch componentId="b63b4296-b6fa-4a80-8e4d-27669880cb1a" sourceId="3963af04-d224-48d4-b703-dc9c311831b5" output="0" />
+    <Patch componentId="3c8653a0-0cbb-4e29-a8be-e64cc1a23183" sourceId="a86fc23d-3abc-4945-b074-9cae37a0c237" output="0" />
+    <Patch componentId="8963c2f9-48e6-4ca8-b9f6-cd14dcde268b" sourceId="a2f398d3-0959-49fb-8076-c127a4993751" output="0" />
+    <Patch componentId="2daf4662-58e1-41fd-8001-8939f0a2761c" sourceId="86c86502-9a94-48d8-a416-2ab61d26e33c" output="0" />
+    <Patch componentId="982d59da-dd70-4a70-a498-bf337ad7fd30" sourceId="110fecaa-4f45-4d4a-afd5-3e1d2bb201be" output="0" />
+    <Patch componentId="069e4aa0-1b98-4711-9c3b-5e72ca6a173f" sourceId="342bb6a8-c319-4256-87d1-9f1c51b8745e" output="0" />
+    <Patch componentId="1f636c30-a7ba-49b4-bcbf-ea893d8ba6b6" sourceId="804b5892-3904-480f-82a5-4020f44f7ee6" output="0" />
+    <Patch componentId="adbe6db8-b343-49f3-930e-5f63b87b5b4b" sourceId="e67fe9c0-4213-43db-aff7-0131d48beb58" output="0" />
+    <Patch componentId="903badc6-5e34-41cc-bc88-2889e651fd82" sourceId="da81c41c-125d-4856-a07f-d3aae175fddb" output="0" />
+    <Patch componentId="b3b334e0-2a43-48f4-9da7-046aa41f11c6" sourceId="163723c6-3a0c-4486-880d-94540c1ec762" output="0" />
+    <Patch componentId="f6ff8680-a010-47a5-8675-ef77ac2a6820" sourceId="5c0b1be9-432c-42bc-ab22-f3a45347f77a" output="0" />
+    <Patch componentId="4c185e06-8873-41f2-a343-ae4ef8364ecf" sourceId="ee38f348-8f42-41f9-9d6e-74a426bcf428" output="0" />
+    <Patch componentId="571fd90c-9663-451c-9952-1835861f05ad" sourceId="5bc8bf85-1bd0-4641-a064-39465f116434" output="0" />
+    <Patch componentId="9c1c6339-d603-4e9b-bfe9-57f8858884ab" sourceId="e08946e5-a9fd-44e9-89d5-4fb372029681" output="0" />
+    <Patch componentId="92604d38-5604-4c15-a892-36672ef3bef1" sourceId="b0fd3dfc-b27a-4e90-afa7-4e1f9ac7d42f" output="0" />
+    <Patch componentId="11a37998-1f8f-4b86-b721-76a50a36e120" sourceId="9a79b88a-f2e9-47f4-8297-ccd6cade9661" output="0" />
+    <Patch componentId="c0995f86-a84d-4415-ba21-81f2bf39e2c9" sourceId="958bf9eb-df4d-4a6c-bc4b-eb6a61cd1b5b" output="0" />
+    <Patch componentId="9838ba43-abf1-478f-9d4e-d398a27ae806" sourceId="b63b4296-b6fa-4a80-8e4d-27669880cb1a" output="0" />
+    <Patch componentId="2055c044-4c09-4d8e-821b-48a072255578" sourceId="3c8653a0-0cbb-4e29-a8be-e64cc1a23183" output="0" />
+    <Patch componentId="0beac88d-f427-4acf-9139-ae9e052a7078" sourceId="8963c2f9-48e6-4ca8-b9f6-cd14dcde268b" output="0" />
+    <Patch componentId="b28adf48-7791-4330-9e38-f50e2f6d81cf" sourceId="2daf4662-58e1-41fd-8001-8939f0a2761c" output="0" />
+    <Patch componentId="2b4a1997-c4c8-4d4e-83d0-b09761da4184" sourceId="982d59da-dd70-4a70-a498-bf337ad7fd30" output="0" />
+    <Patch componentId="859d0eb7-bf8b-4aee-89fd-fe095eeaecba" sourceId="069e4aa0-1b98-4711-9c3b-5e72ca6a173f" output="0" />
+    <Patch componentId="e5521672-6e1d-4f36-b0d4-710e9d67357f" sourceId="1f636c30-a7ba-49b4-bcbf-ea893d8ba6b6" output="0" />
+    <Patch componentId="7e08d8f0-1086-448c-8e6a-7d5e6d4ea0a2" sourceId="adbe6db8-b343-49f3-930e-5f63b87b5b4b" output="0" />
+    <Patch componentId="b2a49bf6-3f9b-4f7c-a7c4-4b31f9f54f91" sourceId="903badc6-5e34-41cc-bc88-2889e651fd82" output="0" />
+    <Patch componentId="25f0b491-c32f-4fbf-98d8-02a4cd44113b" sourceId="b3b334e0-2a43-48f4-9da7-046aa41f11c6" output="0" />
+    <Patch componentId="9ab0e5a2-c23f-44c4-9353-0dfe97c35f13" sourceId="f6ff8680-a010-47a5-8675-ef77ac2a6820" output="0" />
+  </Patches>
+  <DisabledDevices />
+</SystemConfig>
