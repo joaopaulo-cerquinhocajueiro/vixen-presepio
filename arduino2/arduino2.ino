@@ -3,6 +3,8 @@
 // Desenvolvido para maior glória de Jesus, José e Maria
 // Sketch para arduino MEGA
 
+// Cadastro com COM4 no PC e COM13 no notebook
+
 #include <Servo.h>
 #include "VA.h"
 
@@ -25,14 +27,14 @@
 #define pinRomaTrombeta3	36
 #define pinRomaTrombeta4	37
 #define pinRomaTrombeta5	38
-#define pinRomaTrombeta6	39
+#define pinRomaTrombeta6	21
 #define pinRomaArauto	40
 #define pinCarpintaria1	41
 #define pinCarpintaria2	42
 #define pinPadaria1	43
 #define pinPadaria2	47
 #define pinAnjoPastores	48
-#define pinReiMago1	49
+#define pinReiMago1	52
 #define pinReiMago2	50
 #define pinReiMago3	51
 // - para leds PWM
@@ -50,15 +52,16 @@
 #define LuzFinal1	13
 // - para dimmer (PWM)
 #define VitraisGruta	44
-#define PastoresNaGruta	45
-#define ReisNaGruta	46
+//#define PastoresNaGruta	45
+//#define ReisNaGruta	46
 
 #define n_servos  27
 #define n_leds    12
-#define n_dimmers  3
-#define n_pinos   42
-const int pinos[] = {pinbdDomBosco, pinbeDomBosco, pinCabecaDomBosco, pinCorpoDomBosco, pinMenino1Gira, pinMenino1Pula, pinMenino2Gira, pinMenino2Pula, pinMenino3Gira, pinMenino3Pula, pinMenino4Pula, pinCabecaNSCruz, pinRomaTrombeta1, pinRomaTrombeta2, pinRomaTrombeta3, pinRomaTrombeta4, pinRomaTrombeta5, pinRomaTrombeta6, pinRomaArauto, pinCarpintaria1, pinCarpintaria2, pinPadaria1, pinPadaria2, pinAnjoPastores, pinReiMago1, pinReiMago2, pinReiMago3, PastoresNaFogueira, LuzAnjoPastores, CaminhoCaravana, EstrelaDeBelem, SantaCeia1, SantaCeia2, Carpintaria, Padaria, Calvario, RaioCalvario, FocoCalvario, LuzFinal1, VitraisGruta, PastoresNaGruta, ReisNaGruta };
-
+#define n_dimmers  1
+#define n_pinos   40
+const int pinos[] = {pinbdDomBosco, pinbeDomBosco, pinCabecaDomBosco, pinCorpoDomBosco, pinMenino1Gira, pinMenino1Pula, pinMenino2Gira, pinMenino2Pula, pinMenino3Gira, pinMenino3Pula, pinMenino4Pula, pinCabecaNSCruz, pinRomaTrombeta1, pinRomaTrombeta2, pinRomaTrombeta3, pinRomaTrombeta4, pinRomaTrombeta5, pinRomaTrombeta6, pinRomaArauto, pinCarpintaria1, pinCarpintaria2, pinPadaria1, pinPadaria2, pinAnjoPastores, pinReiMago1, pinReiMago2, pinReiMago3, PastoresNaFogueira, LuzAnjoPastores, CaminhoCaravana, EstrelaDeBelem, SantaCeia1, SantaCeia2, Carpintaria, Padaria, Calvario, RaioCalvario, FocoCalvario , LuzFinal1, VitraisGruta };
+const int servosMin[] = { 40,  30,  20,   0,   0,  35,  40, 050,  20,  30, 30, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 40, 0, 0};
+const int servosMax[] = {130, 130, 120, 180, 100, 180, 180,  90,  95, 160, 180, 180, 180, 180, 180, 180, 180, 180, 180, 80, 180, 180, 180, 180, 180, 180, 180};
 Servo servos[n_servos];
 // Servo bdDomBosco;
 // Servo beDomBosco;
@@ -108,12 +111,22 @@ void setup() {
 
 void loop(){
   va_comunica();
-  if(estado = FIM){
+  if(estado == FIM){
     for(int i = 0; i<n_servos; i++){
-      servos[i].write(vars[i]);
+      if(vars[i]>0){
+        if(!servos[i].attached()){
+          servos[i].attach(pinos[i]);
+        }
+        servos[i].write(map(vars[i],1,255,servosMin[i],servosMax[i]));
+      } else if(servos[i].attached()){
+        servos[i].detach();
+      }
     }
-    for(int i = n_servos; i < (n_servos + n_leds + n_dimmers); i++){
+    for(int i = n_servos; i < (n_servos + n_leds); i++){
       analogWrite(pinos[i], vars[i]);
+    }
+    for(int i = n_servos+n_leds;  i< n_servos+n_leds+n_dimmers;i++){
+      digitalWrite(pinos[i],vars[i]);
     }
 
   }

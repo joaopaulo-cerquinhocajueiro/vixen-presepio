@@ -3,6 +3,8 @@
 // Desenvolvido para maior glória de Jesus, José e Maria
 // Sketch para arduino MEGA
 
+// Cadastro com COM6 no PC e COM14 no notebook
+
 // O controlador 3 usa um shield com 5 l293d para comando dos motores
 
 // Biblioteca necessária para PWM em outros pinos
@@ -37,6 +39,7 @@ SOFTPWM_DEFINE_CHANNEL(6, DDRB, PORTB, PORTB3);  //pin 50 - RessurreicaoPedrap
 SOFTPWM_DEFINE_CHANNEL(7, DDRB, PORTB, PORTB1);  //pin 52 - RessurreicaoPedran
 
 SOFTPWM_DEFINE_OBJECT(8);
+//SOFTPWM_DEFINE_EXTERN_OBJECT_WITH_PWM_LEVELS(8, 256);
 
 // - para dimmer (PWM)
 // #define Livre	45
@@ -59,7 +62,7 @@ void setup() {
   for(int i=0; i<n_pinos; i++){
     pinMode(pinos[i],OUTPUT);
   }
-  Palatis::SoftPWM.begin(255);
+  Palatis::SoftPWM.begin(200);
   va_init();
 }
 
@@ -79,19 +82,19 @@ void atualizaMotores(){
   }
   // The last 4 motors use SoftPWM
   for(int i=0; i<4; i++){
-    if(potencias[i]>=0){
+    if(potencias[i+4]>=0){ // potencias 4 a 7
       Palatis::SoftPWM.set(2*i+1,0);
-      Palatis::SoftPWM.set(2*i,potencias[i]);
+      Palatis::SoftPWM.set(2*i,potencias[i+4]);
     } else {
       Palatis::SoftPWM.set(2*i,0);
-      Palatis::SoftPWM.set(2*i+1,-potencias[i]);
+      Palatis::SoftPWM.set(2*i+1,-potencias[i+4]);
     }
   }
 }
 
 void loop(){
   va_comunica();
-  if(estado = FIM){
+  if(estado == FIM){
     for(int i = 0; i<n_motores; i++){
       potencias[i] = vars[2*i]-vars[2*i+1];
     }
